@@ -12648,6 +12648,17 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "Up is ping-pong"
+		(at 100 89.1 0)
+		(layer "Cmts.User")
+		(uuid "fb128e2d-6a09-4a0c-bbb3-abdc9ca8bf9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(zone
 		(net 1)
 		(net_name "GND")
