@@ -923,6 +923,12 @@
 		(uuid "62c4bf26-263d-4bc0-80e3-3e6e7759ca25")
 	)
 	(junction
+		(at 101.6 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63147750-17e2-4a71-ab8c-03559298e687")
+	)
+	(junction
 		(at 38.1 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1468,6 +1474,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 67.31) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf0fb50-3d85-4759-a5c4-2fec329f5efd")
+	)
+	(wire
+		(pts
 			(xy 19.05 259.08) (xy 27.94 259.08)
 		)
 		(stroke
@@ -1715,6 +1731,16 @@
 			(type default)
 		)
 		(uuid "be91ce99-40d1-4fd1-8212-35da66fb4972")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9cc7d6-96f0-4695-a539-c449c664e5ad")
 	)
 	(wire
 		(pts
@@ -2222,7 +2248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "A"
+		(property "Value" "Gain"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -2422,6 +2448,76 @@
 		)
 	)
 	(symbol
+		(lib_id "SynthStuff:MountingHole_Pot")
+		(at 152.4 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2527d7cf-2611-4b5d-b3ab-ce957cc7b437")
+		(property "Reference" "H37"
+			(at 154.94 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tone"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny_text_P110KH1"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pot Mounting Hole"
+			(at 154.94 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8a9a3fac-2a5a-46c4-881e-318e7aca9f15")
+		)
+		(instances
+			(project "DMH_BBDelay_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SynthStuff:MountingHole_ToggleSwitch")
 		(at 152.4 50.8 0)
 		(unit 1)
@@ -2571,7 +2667,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 177.8 38.1 0)
+		(at 177.8 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2580,7 +2676,7 @@
 		(fields_autoplaced yes)
 		(uuid "3aac9f73-0c3b-40a3-be95-85052235874b")
 		(property "Reference" "H29"
-			(at 180.34 36.8299 0)
+			(at 180.34 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2685,7 @@
 			)
 		)
 		(property "Value" "LED_B"
-			(at 180.34 39.37 0)
+			(at 180.34 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2697,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:MountingHole_LED_3mm_R"
-			(at 177.8 38.1 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 38.1 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2715,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 38.1 0)
+			(at 177.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,8 +2808,8 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4c6888d6-09a2-40d4-b23e-71a568ff4ba8")
 		(property "Reference" "H13"
@@ -3775,7 +3871,82 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 152.4 38.1 0)
+		(at 165.1 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb47d4f5-a58d-4534-8250-04919baed52c")
+		(property "Reference" "H38"
+			(at 167.64 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_L"
+			(at 167.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MountingHole_LED_3mm_B"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "DMH_BBDelay_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 152.4 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3784,7 +3955,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc9d2f5d-2cae-47ca-89a4-4ab92c02ab86")
 		(property "Reference" "H28"
-			(at 154.94 36.8299 0)
+			(at 154.94 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3964,7 @@
 			)
 		)
 		(property "Value" "LED_A"
-			(at 154.94 39.37 0)
+			(at 154.94 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +3976,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:MountingHole_LED_3mm_R"
-			(at 152.4 38.1 0)
+			(at 152.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 38.1 0)
+			(at 152.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +3994,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 152.4 38.1 0)
+			(at 152.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
