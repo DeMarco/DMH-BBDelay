@@ -508,7 +508,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH_BBDelay_PANEL.kicad_pro",
+    "filename": "DMH_BBDelay_PANEL_clk.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -705,8 +705,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "DMH_BBDelay_PANEL.kicad_sch",
-        "name": "DMH_BBDelay_PANEL",
+        "filename": "DMH_BBDelay_PANEL_clk.kicad_sch",
+        "name": "DMH_BBDelay_PANEL_clk",
         "uuid": "a552705f-a9fe-462e-9913-5cfcc08b233c"
       }
     ],
@@ -716,7 +716,7 @@
   "sheets": [
     [
       "a552705f-a9fe-462e-9913-5cfcc08b233c",
-      "DMH_BBDelay_PANEL_v2"
+      "DMH_BBDelay_PANEL"
     ]
   ],
   "text_variables": {

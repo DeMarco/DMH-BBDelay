@@ -2154,7 +2154,7 @@
 			(uuid "09878f31-b16a-458b-8948-2253f24568d8")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H30")
 					(unit 1)
@@ -2236,7 +2236,7 @@
 			(uuid "461eab46-6dfa-44bd-9324-401b0d52a76d")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H7")
 					(unit 1)
@@ -2315,7 +2315,7 @@
 			(uuid "b40ddf04-71fe-45fa-a2a7-b744a9a8845d")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H2")
 					(unit 1)
@@ -2397,7 +2397,7 @@
 			(uuid "9ffa209d-db5b-47f3-b4cb-55347646eb18")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H24")
 					(unit 1)
@@ -2489,7 +2489,7 @@
 			(uuid "cf31b655-cc33-4015-9280-a958a402cdd1")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H12")
 					(unit 1)
@@ -2571,7 +2571,7 @@
 			(uuid "50d60578-aef5-4fa2-af2f-9adecd67c7ef")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H5")
 					(unit 1)
@@ -2653,7 +2653,7 @@
 			(uuid "dc1fe115-3802-43a2-a16a-d0be47b204d4")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H20")
 					(unit 1)
@@ -2735,7 +2735,7 @@
 			(uuid "8a9a3fac-2a5a-46c4-881e-318e7aca9f15")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H37")
 					(unit 1)
@@ -2827,7 +2827,7 @@
 			(uuid "0f313176-6373-4bef-a38f-14763584ac11")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H36")
 					(unit 1)
@@ -2909,7 +2909,7 @@
 			(uuid "783dc10a-b162-483c-955d-f886a0e820f2")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H26")
 					(unit 1)
@@ -2988,7 +2988,7 @@
 			)
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H29")
 					(unit 1)
@@ -3070,7 +3070,7 @@
 			(uuid "193caefd-8bc9-4915-8e1a-e5382032159b")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H15")
 					(unit 1)
@@ -3162,7 +3162,7 @@
 			(uuid "45f8a793-ce3f-4d94-8fa2-4b2d217e22bf")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H13")
 					(unit 1)
@@ -3244,7 +3244,7 @@
 			(uuid "b0ea1b8c-4c14-4ab3-a6e1-4557c82d0f06")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H10")
 					(unit 1)
@@ -3322,7 +3322,7 @@
 			(uuid "d8e91c18-cec9-4a18-93e6-7f2e3f5c2230")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "#PWR01")
 					(unit 1)
@@ -3404,7 +3404,7 @@
 			(uuid "dbf86074-089f-4a0f-bbc9-a8df9a3fce70")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H6")
 					(unit 1)
@@ -3486,7 +3486,7 @@
 			(uuid "8aaa5759-f8c7-4c39-877c-beda57260831")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H33")
 					(unit 1)
@@ -3568,7 +3568,7 @@
 			(uuid "c3453279-6568-4b6d-af02-aa6c02d97c1a")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H21")
 					(unit 1)
@@ -3650,7 +3650,7 @@
 			(uuid "2df772c8-31c8-40c1-be64-239216de787a")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H32")
 					(unit 1)
@@ -3742,7 +3742,7 @@
 			(uuid "7c38898f-1525-4e63-ae84-86428d0da2b5")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H9")
 					(unit 1)
@@ -3824,7 +3824,7 @@
 			(uuid "1e756464-3ae0-48a7-93dd-896124b251f9")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H31")
 					(unit 1)
@@ -3906,7 +3906,7 @@
 			(uuid "6d30fa42-7565-4fe4-a328-7b4b6b9202a5")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H23")
 					(unit 1)
@@ -3988,7 +3988,7 @@
 			(uuid "81863c0d-2bc7-4003-b6d7-8c8cc71086b7")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H27")
 					(unit 1)
@@ -4080,7 +4080,7 @@
 			(uuid "caffeb3b-27fe-482e-a859-36d8fc20a231")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H8")
 					(unit 1)
@@ -4159,7 +4159,7 @@
 			(uuid "b362f0f6-d2a7-4c0b-a25c-e5fd2168595b")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H3")
 					(unit 1)
@@ -4241,7 +4241,7 @@
 			(uuid "e27778f0-24a9-4e10-a4f9-d4bbeb09c4ba")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H14")
 					(unit 1)
@@ -4323,7 +4323,7 @@
 			(uuid "db8c5a40-7d8f-419f-8d93-44c54df9200d")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H11")
 					(unit 1)
@@ -4412,7 +4412,7 @@
 			)
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H38")
 					(unit 1)
@@ -4491,7 +4491,7 @@
 			)
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H28")
 					(unit 1)
@@ -4573,7 +4573,7 @@
 			(uuid "20d1b7c3-5470-4119-8441-8b617023b00a")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H25")
 					(unit 1)
@@ -4604,7 +4604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Range B"
+		(property "Value" "Clk Sync B"
 			(at 104.14 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4665,7 +4665,7 @@
 			(uuid "c4f9f11c-6fb3-45e4-a004-504b77f1765c")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H19")
 					(unit 1)
@@ -4747,7 +4747,7 @@
 			(uuid "fdf7d1ac-a6a6-495c-aa8c-993a9a87ba06")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H22")
 					(unit 1)
@@ -4778,7 +4778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Range A"
+		(property "Value" "Clk Sync A"
 			(at 104.14 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +4839,7 @@
 			(uuid "0bdba7eb-53f5-42bf-a3f3-6ad0e9af5ef5")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H18")
 					(unit 1)
@@ -4921,7 +4921,7 @@
 			(uuid "210d36e6-b46c-4b27-b431-24866e8d9b53")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H17")
 					(unit 1)
@@ -4952,7 +4952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Inh B"
+		(property "Value" "Clk B"
 			(at 180.34 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5003,7 +5003,7 @@
 			(uuid "54d18474-4e45-4d17-8522-80aad8afa942")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H35")
 					(unit 1)
@@ -5034,7 +5034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Inh A"
+		(property "Value" "Clk A"
 			(at 180.34 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5085,7 +5085,7 @@
 			(uuid "854fb553-38c5-4849-bdca-0a9a8b1277b5")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H34")
 					(unit 1)
@@ -5164,7 +5164,7 @@
 			(uuid "afd5448e-3a29-45d4-b53b-4a90c1817ef8")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H4")
 					(unit 1)
@@ -5257,7 +5257,7 @@
 			(uuid "1bb56bce-70fc-49f1-b273-170c53cb13fc")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "J0")
 					(unit 1)
@@ -5346,7 +5346,7 @@
 			(uuid "7642c8fc-af00-4f5d-9cff-54b2c1f2e5d4")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H1")
 					(unit 1)
@@ -5428,7 +5428,7 @@
 			(uuid "63b3eeb5-1815-49ae-a1a1-61afc966b538")
 		)
 		(instances
-			(project "DMH_BBDelay_PANEL"
+			(project "DMH_BBDelay_PANEL_clk"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H16")
 					(unit 1)
