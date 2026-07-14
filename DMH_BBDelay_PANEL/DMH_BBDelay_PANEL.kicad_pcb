@@ -13086,10 +13086,10 @@
 	(zone
 		(net "GND")
 		(layers "F.Cu" "B.Cu")
-		(uuid "d671f774-a245-43d8-b4b3-e933b848937f")
-		(name "GroundPlane")
+		(uuid "72675361-2bee-4bd3-87dc-d400e96c7bd9")
+		(name "ground_plane")
 		(hatch edge 0.5)
-		(connect_pads yes
+		(connect_pads
 			(clearance 0.5)
 		)
 		(min_thickness 0.25)
@@ -13100,7 +13100,7 @@
 		)
 		(polygon
 			(pts
-				(xy 50 30) (xy 150 30.5) (xy 150 230.5) (xy 50 230)
+				(xy 50 30) (xy 150 30) (xy 150 230) (xy 50 230)
 			)
 		)
 		(filled_polygon
