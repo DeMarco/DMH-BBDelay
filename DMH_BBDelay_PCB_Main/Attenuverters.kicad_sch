@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "c7258c23-8efd-4c8d-bec6-ebc71b8c0303")
 	(paper "A4")
+	(title_block
+		(company "DMH Instruments")
+		(comment 1 "PCB for 10cm Kosmo format synthesizer module")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -3609,10 +3613,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR076")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR046")
 					(unit 1)
@@ -3691,10 +3691,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR073")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR038")
 					(unit 1)
@@ -3773,10 +3769,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR072")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR044")
 					(unit 1)
@@ -3908,10 +3900,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV1")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV2")
 					(unit 1)
@@ -4007,10 +3995,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV9")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV12")
 					(unit 1)
@@ -4096,20 +4080,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "b4a59066-a6b4-437c-80c9-17429f05fa03")
+			(uuid "b4a59066-a6b4-437c-80c9-17429f05fa04")
 		)
 		(pin "1"
-			(uuid "170ac779-2cde-4b96-972d-474a1eaa468b")
+			(uuid "170ac779-2cde-4b96-972d-474a1eaa468c")
 		)
 		(pin "3"
-			(uuid "ed1ddb61-3fff-4519-8dc6-52bf9b1a50ad")
+			(uuid "ed1ddb61-3fff-4519-8dc6-52bf9b1a50ae")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV7")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV4")
 					(unit 1)
@@ -4334,10 +4314,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "U1")
-					(unit 3)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "U4")
 					(unit 3)
@@ -4416,10 +4392,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR074")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR039")
 					(unit 1)
@@ -4515,10 +4487,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV12")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV9")
 					(unit 1)
@@ -4640,20 +4608,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "b38b8535-1f3d-410b-9f10-ce1b37a0e4fe")
+			(uuid "b38b8535-1f3d-410b-9f10-ce1b37a0e4ff")
 		)
 		(pin "2"
-			(uuid "150e7102-2ad7-4775-8862-dad7825126db")
+			(uuid "150e7102-2ad7-4775-8862-dad7825126dc")
 		)
 		(pin "1"
-			(uuid "515e5113-ec03-4e02-b784-9385a60c797f")
+			(uuid "515e5113-ec03-4e02-b784-9385a60c7980")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV1")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV10")
 					(unit 1)
@@ -4732,10 +4696,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR075")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR040")
 					(unit 1)
@@ -4867,10 +4827,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV6")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV3")
 					(unit 1)
@@ -4945,14 +4901,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c8ac269-88ec-4eb0-9481-00a2bca79998")
+			(uuid "0c8ac269-88ec-4eb0-9481-00a2bca79999")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR075")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR045")
 					(unit 1)
@@ -5035,10 +4987,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "C26")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "C9")
 					(unit 1)
@@ -5121,10 +5069,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "C25")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "C8")
 					(unit 1)
@@ -5205,10 +5149,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "R52")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "R23")
 					(unit 1)
@@ -5325,10 +5265,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "U1")
-					(unit 2)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "U4")
 					(unit 2)
@@ -5445,10 +5381,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "U1")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "U4")
 					(unit 1)
@@ -5527,10 +5459,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR043")
 					(unit 1)
@@ -5662,10 +5590,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV10")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV7")
 					(unit 1)
@@ -5761,10 +5685,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV8")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV5")
 					(unit 1)
@@ -5845,10 +5765,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "R25")
 					(unit 1)
@@ -5929,10 +5845,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "R22")
 					(unit 1)
@@ -6018,20 +5930,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "d234d058-b25c-44b3-bbb6-10e11f7ca8f5")
+			(uuid "d234d058-b25c-44b3-bbb6-10e11f7ca8f6")
 		)
 		(pin "1"
-			(uuid "2206c5d7-6151-47b3-a0c0-75c80fb09157")
+			(uuid "2206c5d7-6151-47b3-a0c0-75c80fb09158")
 		)
 		(pin "3"
-			(uuid "ea84de9c-3bd6-4d11-b380-f4773672dde5")
+			(uuid "ea84de9c-3bd6-4d11-b380-f4773672dde6")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV10")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV13")
 					(unit 1)
@@ -6107,17 +6015,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "5c8b8a45-4e76-4bb7-8fd3-8e2d5bd89550")
+			(uuid "5c8b8a45-4e76-4bb7-8fd3-8e2d5bd89551")
 		)
 		(pin "1"
-			(uuid "ee0d3753-5dea-4e6f-970f-101f57d7c765")
+			(uuid "ee0d3753-5dea-4e6f-970f-101f57d7c766")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "C26")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "C11")
 					(unit 1)
@@ -6191,17 +6095,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "b69f9b42-5644-4a86-98dc-eefc5226c8e7")
+			(uuid "b69f9b42-5644-4a86-98dc-eefc5226c8e8")
 		)
 		(pin "2"
-			(uuid "86012c1d-e076-450b-b6d6-41ca12e4cc80")
+			(uuid "86012c1d-e076-450b-b6d6-41ca12e4cc81")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "R26")
 					(unit 1)
@@ -6320,10 +6220,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "U1")
-					(unit 5)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "U4")
 					(unit 5)
@@ -6498,14 +6394,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "40974b8a-52aa-439f-a0f6-2953347393d6")
+			(uuid "40974b8a-52aa-439f-a0f6-2953347393d7")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR076")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR041")
 					(unit 1)
@@ -6678,14 +6570,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d94a9d3-9683-49fa-8e1d-11590a6d4b6e")
+			(uuid "1d94a9d3-9683-49fa-8e1d-11590a6d4b6f")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR036")
 					(unit 1)
@@ -6807,20 +6695,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "3c84a262-4168-4099-9f1e-bfa746451499")
+			(uuid "3c84a262-4168-4099-9f1e-bfa74645149a")
 		)
 		(pin "2"
-			(uuid "a4882974-fd73-41ef-9be4-b4967744ebe0")
+			(uuid "a4882974-fd73-41ef-9be4-b4967744ebe1")
 		)
 		(pin "1"
-			(uuid "1921114e-2794-4a36-af24-ac8c7b1217d3")
+			(uuid "1921114e-2794-4a36-af24-ac8c7b1217d4")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV6")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV11")
 					(unit 1)
@@ -6894,17 +6778,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3ac750d-574c-4df4-97f2-224bc7da03a5")
+			(uuid "f3ac750d-574c-4df4-97f2-224bc7da03a6")
 		)
 		(pin "2"
-			(uuid "30a25319-269d-4177-a6da-3d15fe7f7138")
+			(uuid "30a25319-269d-4177-a6da-3d15fe7f7139")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "R21")
 					(unit 1)
@@ -6983,10 +6863,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR077")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR042")
 					(unit 1)
@@ -7118,10 +6994,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV9")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV6")
 					(unit 1)
@@ -7217,10 +7089,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "RV11")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "RV8")
 					(unit 1)
@@ -7296,17 +7164,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "df2cad73-d48d-4220-a471-4d72f25400cd")
+			(uuid "df2cad73-d48d-4220-a471-4d72f25400ce")
 		)
 		(pin "2"
-			(uuid "5353af3f-ef37-4676-8b78-47b4f458f9d4")
+			(uuid "5353af3f-ef37-4676-8b78-47b4f458f9d5")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "C25")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "C10")
 					(unit 1)
@@ -7381,14 +7245,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "89a0f6f1-0741-4104-9bf9-b6cbda1b419a")
+			(uuid "89a0f6f1-0741-4104-9bf9-b6cbda1b419b")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR077")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR047")
 					(unit 1)
@@ -7469,10 +7329,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "R53")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "R24")
 					(unit 1)
@@ -7599,10 +7455,6 @@
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "U1")
-					(unit 4)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "U4")
 					(unit 4)
@@ -7677,14 +7529,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "29d69b3b-89e9-4e56-ad5d-07d02f11cde7")
+			(uuid "29d69b3b-89e9-4e56-ad5d-07d02f11cde8")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "#PWR072")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f1cf0f69-dec9-4a36-8ee9-92a4756038fb"
 					(reference "#PWR037")
 					(unit 1)
