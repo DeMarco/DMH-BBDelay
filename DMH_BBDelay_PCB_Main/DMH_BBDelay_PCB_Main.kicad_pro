@@ -489,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH-Kosmo-10cm-PCB.kicad_pro",
+    "filename": "DMH_BBDelay_PCB_Main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -702,18 +702,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "DMH-Kosmo-10cm-PCB.kicad_sch",
-        "name": "DMH-Kosmo-10cm-PCB",
+        "filename": "DMH_BBDelay_PCB_Main.kicad_sch",
+        "name": "DMH_BBDelay_PCB_Main",
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "",
+    "used_designators": "RV14,R27-29,#PWR48-49,U6",
     "variants": []
   },
   "sheets": [
     [
       "58f4306d-5387-4983-bb08-41a2313fd315",
-      "DMH-Kosmo-10cm-PCB"
+      "DMH_BBDelay_PCB_Main"
     ],
     [
       "ce3fef8b-9f1d-4178-b50b-4a046c030679",
@@ -726,6 +726,14 @@
     [
       "0cdf34b2-39cd-4d9e-981a-97cd34791509",
       "Power"
+    ],
+    [
+      "3af47fcf-f8fc-4281-9243-bf2820b35fa1",
+      "VCA_FB_A"
+    ],
+    [
+      "f1cf0f69-dec9-4a36-8ee9-92a4756038fb",
+      "Attenuverters"
     ]
   ],
   "text_variables": {},

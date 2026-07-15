@@ -70,7 +70,7 @@
 			)
 		)
 		(instances
-			(project "DMH-Kosmo-10cm-PCB"
+			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
 				)
@@ -117,7 +117,7 @@
 			)
 		)
 		(instances
-			(project "DMH-Kosmo-10cm-PCB"
+			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
 				)
@@ -164,9 +164,59 @@
 			)
 		)
 		(instances
-			(project "DMH-Kosmo-10cm-PCB"
+			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 152.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1cf0f69-dec9-4a36-8ee9-92a4756038fb")
+		(property "Sheetname" "Attenuverters"
+			(at 63.5 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Attenuverters.kicad_sch"
+			(at 63.5 178.3846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "6")
 				)
 			)
 		)

@@ -498,7 +498,7 @@
 			(uuid "8810040d-b8d0-4644-b329-3bb924e37730")
 		)
 		(instances
-			(project "DMH-Kosmo-10cm-PCB"
+			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679"
 					(reference "J200")
 					(unit 1)
