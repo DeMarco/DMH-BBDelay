@@ -5,6 +5,7 @@
 	(uuid "0032af0c-9f50-4880-b231-170f390f6ac9")
 	(paper "A4")
 	(title_block
+		(title "3205 Delay")
 		(company "DMH Instruments")
 		(comment 1 "PCB for 10cm Kosmo format synthesizer module")
 	)

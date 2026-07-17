@@ -707,7 +707,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "U7-8,D6-10,#PWR50-73,R30-51,C12-16,Q3,SW2,RV15",
+    "used_designators": "C19-22,#FLG9-11,R52-85,J3-4,Q4-7,RV16-20,U8-9,#PWR76-104",
     "variants": []
   },
   "sheets": [
@@ -734,6 +734,10 @@
     [
       "f1cf0f69-dec9-4a36-8ee9-92a4756038fb",
       "Attenuverters"
+    ],
+    [
+      "28bd5498-2c36-4058-8e7b-c0c640e09451",
+      "VCXF_DW_A"
     ]
   ],
   "text_variables": {},
