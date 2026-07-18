@@ -707,7 +707,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "C19-22,#FLG9-11,R52-85,J3-4,Q4-7,RV16-20,U8-9,#PWR76-104",
+    "used_designators": "RV10,R49-50,R86,#PWR105-106",
     "variants": []
   },
   "sheets": [
