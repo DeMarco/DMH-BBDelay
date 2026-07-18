@@ -707,7 +707,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "RV10,R49-50,R86,#PWR105-106",
+    "used_designators": "SW1-2,SW4,C10-11,C23-41,D11-18,#PWR20,#PWR43-47,#PWR107-188,Q8-14,#FLG12-17,R3-4,R25-26,R51,R86-159,RV11-12,RV21-27,U5-9,U14-16,J5-8",
     "variants": []
   },
   "sheets": [
@@ -721,7 +721,7 @@
     ],
     [
       "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
-      "Core Circuit"
+      "Core Circuit A"
     ],
     [
       "0cdf34b2-39cd-4d9e-981a-97cd34791509",
@@ -738,6 +738,18 @@
     [
       "28bd5498-2c36-4058-8e7b-c0c640e09451",
       "VCXF_DW_A"
+    ],
+    [
+      "53120047-129a-4e0f-876f-6cafa2f18733",
+      "Core Circuit B"
+    ],
+    [
+      "3af47fcf-f8fc-4281-9243-bf2820b35fa1",
+      "VCA_FB_B"
+    ],
+    [
+      "28bd5498-2c36-4058-8e7b-c0c640e09451",
+      "VCXF_DW_B"
     ]
   ],
   "text_variables": {},

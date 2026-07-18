@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 127 88.9)
+		(at 209.55 64.77)
 		(size 20.32 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28,7 +28,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 127 88.1884 0)
+			(at 209.55 64.0584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 127 114.8846 0)
+			(at 209.55 90.7546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51,7 +51,7 @@
 			)
 		)
 		(pin "Bus Gate" output
-			(at 127 96.52 180)
+			(at 209.55 72.39 180)
 			(uuid "35434339-bc2b-4868-9a18-95483283b276")
 			(effects
 				(font
@@ -61,7 +61,7 @@
 			)
 		)
 		(pin "Bus CV" output
-			(at 127 106.68 180)
+			(at 209.55 82.55 180)
 			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
 			(effects
 				(font
@@ -79,7 +79,54 @@
 		)
 	)
 	(sheet
-		(at 63.5 76.2)
+		(at 63.5 88.9)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "53120047-129a-4e0f-876f-6cafa2f18733")
+		(property "Sheetname" "Core Circuit B"
+			(at 63.5 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core_Circuit_B.kicad_sch"
+			(at 63.5 140.2846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
 		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -94,8 +141,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
-		(property "Sheetname" "Core Circuit"
-			(at 63.5 75.4884 0)
+		(property "Sheetname" "Core Circuit A"
+			(at 63.5 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -105,8 +152,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Core_Circuit.kicad_sch"
-			(at 63.5 127.5846 0)
+		(property "Sheetfile" "Core_Circuit_A.kicad_sch"
+			(at 63.5 76.7846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -126,7 +173,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 76.2)
+		(at 25.4 25.4)
 		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -142,7 +189,7 @@
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs"
-			(at 25.4 75.4884 0)
+			(at 25.4 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -153,7 +200,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 25.4 127.5846 0)
+			(at 25.4 76.7846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
