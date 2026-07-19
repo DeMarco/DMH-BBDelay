@@ -1874,121 +1874,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(circle
 		(center 212.09 63.5)
@@ -2079,12 +1964,6 @@
 		(uuid "c15331a0-6d2f-40eb-ac37-cc8d82c1f4b5")
 	)
 	(junction
-		(at 165.1 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e7d73b2-c149-4aaf-ad5c-9807c0e2a5b3")
-	)
-	(junction
 		(at 114.3 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2107,12 +1986,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b1f530d-eb2f-41fc-bd50-06e46a281850")
-	)
-	(junction
-		(at 127 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81724883-fa15-4838-89d9-eaa12cd970cb")
 	)
 	(junction
 		(at 165.1 97.79)
@@ -2173,12 +2046,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f29aaa25-f0e0-4168-bd5f-7ffce13327c3")
-	)
-	(junction
-		(at 165.1 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f629d010-bb6f-4959-938c-1bfd3e3d0ba3")
 	)
 	(wire
 		(pts
@@ -3205,89 +3072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 165.1 156.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e41df58-80a3-40e9-8533-6fe8f7578556")
-		(property "Reference" "#FLG08"
-			(at 167.005 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 168.91 156.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 165.1 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ea2c4af-6791-48a4-9de2-5d3ccaf6c775")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
-					(reference "#FLG017")
-					(unit 1)
-				)
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-12V")
 		(at 165.1 160.02 180)
 		(unit 1)
@@ -4032,90 +3816,6 @@
 				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 127 158.75 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a682591-9eb9-44c3-91fb-33e38bbfe7bb")
-		(property "Reference" "#FLG06"
-			(at 125.095 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 123.19 158.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 127 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "213a1b95-a32b-4bb8-9558-eaa146d26a46")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
-					(reference "#FLG015")
-					(unit 1)
-				)
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -5213,89 +4913,6 @@
 				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 165.1 153.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aea4902e-e357-4b7b-bf07-050bf41086b2")
-		(property "Reference" "#FLG07"
-			(at 167.005 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 168.91 153.6699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 165.1 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb40a019-f831-4aad-9928-7faf578231d1")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
-					(reference "#FLG016")
-					(unit 1)
-				)
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)

@@ -2576,7 +2576,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 8.89 6.35 180)
 					(length 2.54)
 					(name "Vgg"
@@ -3327,6 +3327,12 @@
 		)
 	)
 	(junction
+		(at 295.91 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00b7c340-0284-47eb-9d7f-deb35a6928a5")
+	)
+	(junction
 		(at 215.9 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3411,12 +3417,6 @@
 		(uuid "4a62039b-06f8-454c-b009-e1b8065307c7")
 	)
 	(junction
-		(at 276.86 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b31844c-6736-46d7-9db8-ca389f30dba2")
-	)
-	(junction
 		(at 270.51 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3489,7 +3489,7 @@
 		(uuid "a20fcddf-9608-4311-aaca-94b19bdffa9e")
 	)
 	(junction
-		(at 292.1 15.24)
+		(at 280.67 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a59dae16-a907-4feb-a8f8-bcf741f6febd")
@@ -3734,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 29.21) (xy 292.1 29.21)
+			(xy 355.6 29.21) (xy 280.67 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4114,6 +4114,26 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 80.01) (xy 355.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b987fd6-8605-435c-8be2-f4c1d9f258bf")
+	)
+	(wire
+		(pts
+			(xy 280.67 66.04) (xy 280.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c127887-a486-4b1e-a666-8a80c6e92cf3")
+	)
+	(wire
+		(pts
 			(xy 228.6 80.01) (xy 228.6 95.25)
 		)
 		(stroke
@@ -4134,7 +4154,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 34.29) (xy 276.86 69.85)
+			(xy 276.86 24.13) (xy 276.86 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4434,16 +4454,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 24.13) (xy 276.86 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5196d3f5-26a3-4b0b-bb3a-64ad3990ea1c")
-	)
-	(wire
-		(pts
 			(xy 137.16 165.1) (xy 137.16 171.45)
 		)
 		(stroke
@@ -4524,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 29.21) (xy 292.1 15.24)
+			(xy 280.67 29.21) (xy 280.67 15.24)
 		)
 		(stroke
 			(width 0)
@@ -4794,6 +4804,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 82.55) (xy 332.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ac5775-044f-40de-8d47-fe5378b0fa81")
+	)
+	(wire
+		(pts
 			(xy 133.35 173.99) (xy 133.35 160.02)
 		)
 		(stroke
@@ -4954,6 +4974,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 82.55) (xy 304.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80014b37-30b1-44f8-80b9-47fa1157e7ee")
+	)
+	(wire
+		(pts
 			(xy 133.35 120.65) (xy 133.35 142.24)
 		)
 		(stroke
@@ -4971,6 +5001,16 @@
 			(type default)
 		)
 		(uuid "815671cc-714c-49d1-be8e-521e9105c076")
+	)
+	(wire
+		(pts
+			(xy 304.8 66.04) (xy 280.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82205713-b11b-450d-8818-ba9c588ba014")
 	)
 	(wire
 		(pts
@@ -5141,6 +5181,16 @@
 			(type default)
 		)
 		(uuid "90099f7b-7bd2-4121-b753-079387580811")
+	)
+	(wire
+		(pts
+			(xy 280.67 34.29) (xy 355.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d07a34-478b-4069-8fb3-e360f7644728")
 	)
 	(wire
 		(pts
@@ -5624,16 +5674,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 34.29) (xy 355.6 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c007daba-bb0f-4a94-9c03-d313c87d7905")
-	)
-	(wire
-		(pts
 			(xy 232.41 127) (xy 241.3 127)
 		)
 		(stroke
@@ -5721,6 +5761,16 @@
 			(type default)
 		)
 		(uuid "c93877a5-357d-4d04-8c45-e932372a4456")
+	)
+	(wire
+		(pts
+			(xy 295.91 95.25) (xy 335.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93fc7d9-74c8-4629-8cf7-b7df7e17c52b")
 	)
 	(wire
 		(pts
@@ -5984,7 +6034,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 15.24) (xy 63.5 15.24)
+			(xy 280.67 15.24) (xy 63.5 15.24)
 		)
 		(stroke
 			(width 0)
@@ -6031,6 +6081,16 @@
 			(type default)
 		)
 		(uuid "e35bd434-f99f-4f06-8ab3-60bc948f664b")
+	)
+	(wire
+		(pts
+			(xy 347.98 97.79) (xy 355.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b6bd0c-95a9-4351-ae11-91cd19b75b4f")
 	)
 	(wire
 		(pts
@@ -6124,7 +6184,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 15.24) (xy 294.64 15.24)
+			(xy 280.67 15.24) (xy 283.21 15.24)
 		)
 		(stroke
 			(width 0)
@@ -6464,7 +6524,7 @@
 	)
 	(global_label "D_A_m"
 		(shape output)
-		(at 294.64 15.24 0)
+		(at 283.21 15.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6474,7 +6534,7 @@
 		)
 		(uuid "5dfbceb1-81d9-4c6e-931e-499ba5383465")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.6123 15.24 0)
+			(at 292.1823 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,6 +6543,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "W_A_TC_Out_c"
+		(shape output)
+		(at 347.98 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64b9a230-20d1-4f63-b8c6-fff3afd9fa07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.053 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "W_A_Out_c"
+		(shape input)
+		(at 347.98 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70395967-0dd1-4e64-8e57-b88e5716e257")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.2582 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6507,6 +6615,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "W_A_Out_m"
+		(shape output)
+		(at 335.28 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eceafed-b8c4-4299-95c4-bae2e7b5e1b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 348.6065 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6787,6 +6919,30 @@
 		(uuid "e6152dca-2983-492a-87e9-9d25fe403f8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.7236 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "W_A_TC_Out_m"
+		(shape input)
+		(at 332.74 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecf68421-1814-4395-86f2-2d274f0ad811")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 349.2717 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16752,7 +16908,7 @@
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -16833,6 +16989,73 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 355.6 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb69b181-d8bc-4e10-9928-7a4f7199d6af")
+		(property "Sheetname" "Tone Control A"
+			(at 355.6 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Tone_Control_A.kicad_sch"
+			(at 355.6 102.1846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 355.6 97.79 180)
+			(uuid "cb04d852-020f-441e-9c51-9d57a261584f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 355.6 80.01 180)
+			(uuid "d019a869-151d-4944-b787-5700bf096b04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(page "10")
 				)
 			)
 		)
