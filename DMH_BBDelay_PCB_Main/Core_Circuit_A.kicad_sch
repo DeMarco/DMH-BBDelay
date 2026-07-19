@@ -12060,7 +12060,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 88.9 171.45 0)
-		(unit 2)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12122,6 +12122,16 @@
 				)
 			)
 		)
+		(property "Function" ""
+			(at 88.9 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f7a8c25e-12fa-4d52-ad94-9c5326aae7de")
 		)
@@ -12168,7 +12178,7 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U9")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -14608,7 +14618,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 107.95 171.45 0)
-		(unit 3)
+		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14670,6 +14680,16 @@
 				)
 			)
 		)
+		(property "Function" ""
+			(at 107.95 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "832f8c6d-2993-4972-b43e-dd6f40330594")
 		)
@@ -14716,7 +14736,7 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U9")
-					(unit 3)
+					(unit 5)
 				)
 			)
 		)
