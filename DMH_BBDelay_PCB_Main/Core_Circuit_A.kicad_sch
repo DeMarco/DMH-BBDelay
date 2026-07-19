@@ -2091,278 +2091,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SynthStuff:SW_DPDT_OnOffOn_x2"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DPDT_OnOffOn_x2"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, dual pole double throw, separate symbols"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Function" "Function"
-				(at 0 -7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-						(italic yes)
-					)
-				)
-			)
-			(property "ki_keywords" "switch dual-pole double-throw DPDT ON-OFF-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW*DPDT*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_DPDT_OnOffOn_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_OnOffOn_x2_0_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_OnOffOn_x2_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DPDT_OnOffOn_x2_2_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SynthStuff:V3205"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3489,12 +3217,6 @@
 		(uuid "a20fcddf-9608-4311-aaca-94b19bdffa9e")
 	)
 	(junction
-		(at 280.67 15.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a59dae16-a907-4feb-a8f8-bcf741f6febd")
-	)
-	(junction
 		(at 27.94 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3624,16 +3346,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 26.67) (xy 209.55 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "023d2dd3-4d5e-461c-bfe9-2d15defc3e4b")
-	)
-	(wire
-		(pts
 			(xy 208.28 120.65) (xy 203.2 120.65)
 		)
 		(stroke
@@ -3671,16 +3383,6 @@
 			(type default)
 		)
 		(uuid "062377ef-5c4c-4dac-9286-7aebd37e564a")
-	)
-	(wire
-		(pts
-			(xy 201.93 31.75) (xy 209.55 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c8748e-53a3-4277-9943-177d830c5b75")
 	)
 	(wire
 		(pts
@@ -3891,16 +3593,6 @@
 			(type default)
 		)
 		(uuid "198e61b8-23e5-4384-9db2-bdcafac73f73")
-	)
-	(wire
-		(pts
-			(xy 184.15 29.21) (xy 191.77 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bc117fe-473a-441f-b280-81c319ba504e")
 	)
 	(wire
 		(pts
@@ -4154,7 +3846,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 24.13) (xy 276.86 69.85)
+			(xy 276.86 31.75) (xy 276.86 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4554,7 +4246,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 24.13) (xy 276.86 24.13)
+			(xy 209.55 31.75) (xy 276.86 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6184,16 +5876,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 15.24) (xy 283.21 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49c85c8-ce06-4265-aa85-52ce92caeb07")
-	)
-	(wire
-		(pts
 			(xy 127 173.99) (xy 127 157.48)
 		)
 		(stroke
@@ -6426,7 +6108,7 @@
 			)
 		)
 	)
-	(global_label "PP_Sw_A_m"
+	(global_label "VCA_FB_A_In_m"
 		(shape input)
 		(at 171.45 31.75 0)
 		(fields_autoplaced yes)
@@ -6438,7 +6120,7 @@
 		)
 		(uuid "32bb93ad-280e-496a-94ff-43cf73dde081")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.1999 31.75 0)
+			(at 188.6471 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6511,30 +6193,6 @@
 		(uuid "57c974c3-911a-46cc-b642-b2e5b94f2f5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.7236 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "D_A_m"
-		(shape output)
-		(at 283.21 15.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5dfbceb1-81d9-4c6e-931e-499ba5383465")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.1823 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6642,30 +6300,6 @@
 			)
 		)
 	)
-	(global_label "W_A_Out_c"
-		(shape input)
-		(at 209.55 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "840314e3-60c7-4fd2-b78f-184ab1815ecf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.2718 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Clock_A_m"
 		(shape output)
 		(at 127 120.65 180)
@@ -6692,7 +6326,7 @@
 	)
 	(global_label "W_A_Out_m"
 		(shape output)
-		(at 222.25 24.13 180)
+		(at 209.55 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6702,7 +6336,7 @@
 		)
 		(uuid "9cee7b4d-8d59-461f-a3ce-595ca397b52a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.9235 24.13 0)
+			(at 196.2235 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,30 +6369,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "PP_Sw_A_c"
-		(shape output)
-		(at 184.15 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1b53a6e-3c50-4a1e-b489-dc8bdc7667df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.0048 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -6879,30 +6489,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "W_B_Out_c"
-		(shape input)
-		(at 209.55 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4d18806-51fe-4327-8395-769f7c5f72fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.4532 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -14720,111 +14306,6 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SynthStuff:SW_DPDT_OnOffOn_x2")
-		(at 196.85 29.21 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d90d9b2a-3105-481e-b8f3-16300c357902")
-		(property "Reference" "SW1"
-			(at 196.85 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPDT_OnOffOn_x2"
-			(at 196.85 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
-			(at 196.85 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 196.85 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "Ping Pong"
-			(at 196.85 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "aa1c9430-c839-4f82-ad9b-4462ca2331ce")
-		)
-		(pin "1"
-			(uuid "3a27d355-0033-4366-b252-5565fe73a91d")
-		)
-		(pin "4"
-			(uuid "1c6fd8cb-bb96-4511-8691-a14db623bb54")
-		)
-		(pin "3"
-			(uuid "77880450-773d-421d-9160-56d72a90284a")
-		)
-		(pin "2"
-			(uuid "d74775d3-ef83-4fc4-8411-f99966b45b62")
-		)
-		(pin "5"
-			(uuid "f0be5dd9-05ba-4bac-b08b-f871f03ef59f")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
