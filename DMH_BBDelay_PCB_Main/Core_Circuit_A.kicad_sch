@@ -7069,7 +7069,7 @@
 			)
 		)
 	)
-	(global_label "Inhibt_A_CV_m"
+	(global_label "Inhibit_A_CV_m"
 		(shape input)
 		(at 48.26 171.45 180)
 		(fields_autoplaced yes)
@@ -7081,7 +7081,7 @@
 		)
 		(uuid "b10bd07f-b1b9-436c-99c7-a1223e5e4452")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.8492 171.45 0)
+			(at 31.2444 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
