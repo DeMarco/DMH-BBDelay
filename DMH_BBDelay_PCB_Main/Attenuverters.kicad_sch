@@ -2520,7 +2520,7 @@
 		)
 		(uuid "f94df691-cf13-4d42-80b8-ddc230ac7325")
 	)
-	(global_label "FB_B_CV_In"
+	(global_label "FB_B_CV_In_c"
 		(shape input)
 		(at 139.7 86.36 180)
 		(fields_autoplaced yes)
@@ -2532,7 +2532,7 @@
 		)
 		(uuid "1440213d-d0b8-40a2-9c35-0f328f0eb4fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.071 86.36 0)
+			(at 124.0148 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
