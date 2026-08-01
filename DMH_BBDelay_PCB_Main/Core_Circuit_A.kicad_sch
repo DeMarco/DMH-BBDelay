@@ -17346,7 +17346,6 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 292.1 50.8 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17356,7 +17355,7 @@
 		(dnp no)
 		(uuid "aec6fbc2-78d8-4895-bf3a-cd52b02a3cf0")
 		(property "Reference" "RV19"
-			(at 289.56 52.0701 0)
+			(at 289.56 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17367,7 +17366,7 @@
 			)
 		)
 		(property "Value" "B100k"
-			(at 289.56 49.5301 0)
+			(at 289.56 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17444,7 +17443,7 @@
 			)
 		)
 		(property "Function" "Mix A"
-			(at 285.75 54.61 0)
+			(at 285.75 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
