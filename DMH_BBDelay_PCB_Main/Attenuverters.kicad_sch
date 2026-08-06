@@ -1656,6 +1656,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 19.05 25.4)
+		(end 260.35 107.95)
+		(stroke
+			(width 0.25)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "15998e86-1c71-4d34-8ffd-afb170ff8af6")
+	)
 	(junction
 		(at 50.8 48.26)
 		(diameter 0)

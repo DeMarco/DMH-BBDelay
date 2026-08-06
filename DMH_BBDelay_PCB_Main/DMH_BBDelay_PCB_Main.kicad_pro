@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "D16-18,#PWR126,#PWR188,R157-159",
+    "used_designators": "U19-20,D3-5,D16,D19,#PWR218-234,Q15-18,R157,R173-176",
     "variants": []
   },
   "sheets": [
