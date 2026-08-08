@@ -3003,6 +3003,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer_Dual_Separate"
 			(pin_names
 				(offset 1.016)
@@ -5429,8 +5630,8 @@
 		(uuid "a09fd263-e2fa-4a77-a1ff-7901d34575b8")
 	)
 	(rectangle
-		(start 148.59 193.04)
-		(end 190.5 213.36)
+		(start 142.24 193.04)
+		(end 184.15 213.36)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5595,6 +5796,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d1a13f-dff4-4209-a973-71baa346a689")
+	)
+	(junction
+		(at 198.12 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86ca98bd-35f9-4a7b-a68c-882aa73a107f")
 	)
 	(junction
 		(at 50.8 171.45)
@@ -5767,7 +5974,7 @@
 		(uuid "438a4029-5822-4728-9a7f-f7eaf6df9df6")
 	)
 	(no_connect
-		(at 160.02 198.12)
+		(at 153.67 198.12)
 		(uuid "46d01224-b3fc-4cb1-993f-887e7ff6ad0f")
 	)
 	(no_connect
@@ -6170,6 +6377,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 198.12) (xy 198.12 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d454e8d-9467-4921-94f0-1e787c01b9bf")
+	)
+	(wire
+		(pts
 			(xy 194.31 102.87) (xy 199.39 102.87)
 		)
 		(stroke
@@ -6390,6 +6607,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 203.2) (xy 213.36 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c255808-b21a-4a85-87c8-94e14d1b24c9")
+	)
+	(wire
+		(pts
 			(xy 228.6 80.01) (xy 228.6 95.25)
 		)
 		(stroke
@@ -6437,6 +6664,16 @@
 			(type default)
 		)
 		(uuid "334b6afe-24da-40ff-89f8-009cec30f587")
+	)
+	(wire
+		(pts
+			(xy 198.12 177.8) (xy 198.12 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e6f1d2-baa3-422f-836d-917b05b795ef")
 	)
 	(wire
 		(pts
@@ -6750,7 +6987,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 203.2) (xy 152.4 205.74)
+			(xy 146.05 203.2) (xy 146.05 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7440,7 +7677,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 203.2) (xy 152.4 203.2)
+			(xy 153.67 203.2) (xy 146.05 203.2)
 		)
 		(stroke
 			(width 0)
@@ -8350,7 +8587,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 200.66) (xy 173.99 200.66)
+			(xy 163.83 200.66) (xy 167.64 200.66)
 		)
 		(stroke
 			(width 0)
@@ -8410,7 +8647,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 203.2) (xy 213.36 203.2)
+			(xy 181.61 203.2) (xy 198.12 203.2)
 		)
 		(stroke
 			(width 0)
@@ -8837,6 +9074,16 @@
 			(type default)
 		)
 		(uuid "d06e920e-aa5f-4f0b-8c59-d5e5ecaf31cb")
+	)
+	(wire
+		(pts
+			(xy 198.12 187.96) (xy 198.12 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c3bc92-378c-44e7-a6b2-e4e5a9b8c2dc")
 	)
 	(wire
 		(pts
@@ -10776,7 +11023,7 @@
 	)
 	(global_label "PP_Sw_p5_c"
 		(shape input)
-		(at 173.99 200.66 0)
+		(at 167.64 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10786,7 +11033,7 @@
 		)
 		(uuid "cdb78b7f-6a9d-4281-b68f-96c038cd228e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4051 200.66 0)
+			(at 182.0551 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10944,7 +11191,7 @@
 	)
 	(global_label "PP_Sw_p5_m"
 		(shape output)
-		(at 187.96 203.2 180)
+		(at 181.61 203.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10954,7 +11201,7 @@
 		)
 		(uuid "dcd97e4c-523a-48f6-96c6-5d0149ebc9ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.9402 203.2 0)
+			(at 166.5902 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12967,7 +13214,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 165.1 200.66 180)
+		(at 158.75 200.66 180)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12977,7 +13224,7 @@
 		(dnp no)
 		(uuid "29ec2dcf-d500-4806-8f99-ef8876f25b88")
 		(property "Reference" "SW1"
-			(at 165.1 209.55 0)
+			(at 158.75 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12987,7 +13234,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_3way_x2"
-			(at 165.1 207.01 0)
+			(at 158.75 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12997,7 +13244,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
-			(at 165.1 200.66 0)
+			(at 158.75 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +13255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 200.66 0)
+			(at 158.75 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,7 +13266,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 165.1 200.66 0)
+			(at 158.75 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13030,7 +13277,7 @@
 			)
 		)
 		(property "Function" "Ping Pong"
-			(at 165.1 194.818 0)
+			(at 158.75 194.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13425,6 +13672,88 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 198.12 184.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3452a0bb-501e-4fe0-8648-bd7c9f5f1cba")
+		(property "Reference" "R157"
+			(at 195.58 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 195.58 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 197.104 184.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 198.12 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f9655c2-9329-4dce-9564-e23c450fec52")
+		)
+		(pin "1"
+			(uuid "9df5305e-87a7-4e56-984a-0ec48c544f73")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "R157")
 					(unit 1)
 				)
 			)
@@ -16268,7 +16597,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 205.74 0)
+		(at 146.05 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16279,7 +16608,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f47892c-dd22-4e56-ab41-5c84105f4832")
 		(property "Reference" "#PWR0200"
-			(at 152.4 212.09 0)
+			(at 146.05 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16290,7 +16619,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 210.82 0)
+			(at 146.05 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16300,7 +16629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 205.74 0)
+			(at 146.05 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16311,7 +16640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 205.74 0)
+			(at 146.05 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16322,7 +16651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 205.74 0)
+			(at 146.05 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17503,6 +17832,112 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 198.12 194.31 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84ddc91a-d4e8-431c-aff4-027a820a43ee")
+		(property "Reference" "D5"
+			(at 194.31 194.6274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Blue"
+			(at 194.31 197.1674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 198.12 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 198.12 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "Blue"
+			(at 192.024 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7dbcf591-51d7-47fd-bfed-8ac3f77fd0bf")
+		)
+		(pin "1"
+			(uuid "a3f49d10-8d65-48cf-b013-a614989c6465")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -21571,6 +22006,84 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 198.12 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e813b5-aab9-42e6-9dcd-3f19d08896f1")
+		(property "Reference" "#PWR0212"
+			(at 198.12 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 198.12 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 198.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33872524-3cf6-4acc-acca-cf19a2264f24")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
