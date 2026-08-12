@@ -821,6 +821,14 @@
     [
       "d7d04bde-8027-4a64-bc5f-eff78ea7dc9f",
       "LEDs"
+    ],
+    [
+      "8e34eb14-41ad-4153-9c21-6be4c03e8211",
+      "Input Filter A"
+    ],
+    [
+      "9104bdbd-0802-4c59-bf61-2977ca5bff15",
+      "Input Filter B"
     ]
   ],
   "text_variables": {},
