@@ -2660,7 +2660,7 @@
 				)
 			)
 		)
-		(property "Value" "18k2"
+		(property "Value" "33k"
 			(at 135.255 90.297 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2985,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Value" "32k4"
+		(property "Value" "33k"
 			(at 135.255 102.997 0)
 			(show_name no)
 			(do_not_autoplace no)
