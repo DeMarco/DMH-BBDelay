@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR116,#PWR126,#PWR184,#PWR188,#PWR224,#PWR230,#PWR241,C3,C55-62,R158-160,R177-180",
     "variants": []
   },
   "sheets": [
@@ -823,7 +823,7 @@
       "LEDs"
     ],
     [
-      "8e34eb14-41ad-4153-9c21-6be4c03e8211",
+      "7229ae76-44f4-4595-8819-8d092fe99e78",
       "Input Filter A"
     ],
     [
