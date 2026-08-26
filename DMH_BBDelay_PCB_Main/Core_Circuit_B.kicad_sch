@@ -5581,6 +5581,18 @@
 		)
 		(uuid "32399b8c-4c87-48bf-8693-8e3b6a5d7987")
 	)
+	(circle
+		(center 253.746 49.276)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "36cf43a2-6f01-4c3e-a486-1bd032618d5b")
+	)
 	(rectangle
 		(start 45.72 106.68)
 		(end 91.44 129.54)
@@ -5664,6 +5676,16 @@
 			(type none)
 		)
 		(uuid "e6574cb8-9e5c-4636-9615-29b9705daeb1")
+	)
+	(text "Used 124k"
+		(exclude_from_sim no)
+		(at 254 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9131be74-eac1-4d71-bd2e-fbc0e0b6743e")
 	)
 	(text "Used 124k"
 		(exclude_from_sim no)
@@ -13029,7 +13051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "82k"
+		(property "Value" "100k"
 			(at 73.66 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15291,7 +15313,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "18k"
 			(at 234.95 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25478,7 +25500,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "120k"
 			(at 254 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
