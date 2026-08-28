@@ -2872,7 +2872,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Dual_Separate")
-		(at 200.66 55.88 270)
+		(at 200.66 55.88 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2880,7 +2881,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c96d1f37-8782-4c84-b7f1-6e7434a2a5d0")
 		(property "Reference" "RV11"
 			(at 200.66 49.53 90)
