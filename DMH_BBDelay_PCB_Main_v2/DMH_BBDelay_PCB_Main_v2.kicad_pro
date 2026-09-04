@@ -489,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DMH_BBDelay_PCB_Main.kicad_pro",
+    "filename": "DMH_BBDelay_PCB_Main_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -765,12 +765,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "DMH_BBDelay_PCB_Main.kicad_sch",
-        "name": "DMH_BBDelay_PCB_Main",
+        "filename": "DMH_BBDelay_PCB_Main_v2.kicad_sch",
+        "name": "DMH_BBDelay_PCB_Main_v2",
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "U22-24",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -829,10 +829,6 @@
     [
       "9104bdbd-0802-4c59-bf61-2977ca5bff15",
       "Input Filter B"
-    ],
-    [
-      "1f43dbde-384d-4d16-80c9-4cd2c0d36e7e",
-      "Compressor A"
     ]
   ],
   "text_variables": {},
