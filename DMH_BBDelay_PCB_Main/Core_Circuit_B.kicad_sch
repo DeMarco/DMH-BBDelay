@@ -26473,4 +26473,71 @@
 			)
 		)
 	)
+	(sheet
+		(at 152.4 241.3)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "db02f693-96f3-4536-a294-4f25915b9f08")
+		(property "Sheetname" "Compressor B"
+			(at 152.4 240.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Compressor_B.kicad_sch"
+			(at 152.4 267.2846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 152.4 254 180)
+			(uuid "6a1fd1b5-0adf-4383-8def-f15bb613b1d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 177.8 254 0)
+			(uuid "829ae215-4366-4a60-a29d-ea343c29690d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(page "16")
+				)
+			)
+		)
+	)
 )

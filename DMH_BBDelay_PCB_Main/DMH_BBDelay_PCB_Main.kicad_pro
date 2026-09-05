@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "U22-24",
+    "used_designators": "U22-25,C3-4,C84-97,R186,R197-215,D17-22,#PWR187,#PWR218,#PWR223,#PWR246-266",
     "variants": []
   },
   "sheets": [
@@ -833,6 +833,10 @@
     [
       "1f43dbde-384d-4d16-80c9-4cd2c0d36e7e",
       "Compressor A"
+    ],
+    [
+      "db02f693-96f3-4536-a294-4f25915b9f08",
+      "Compressor B"
     ]
   ],
   "text_variables": {},
