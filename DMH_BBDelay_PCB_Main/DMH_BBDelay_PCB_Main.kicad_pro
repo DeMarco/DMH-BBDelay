@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "U22-25,C3-4,C84-97,R186,R197-215,D17-22,#PWR187,#PWR218,#PWR223,#PWR246-266",
+    "used_designators": "D20,D23-28,#PWR255-292,C4,C91-113,R206-241,U22-23,U27-29,RV13,RV28",
     "variants": []
   },
   "sheets": [
@@ -835,8 +835,16 @@
       "Compressor A"
     ],
     [
-      "db02f693-96f3-4536-a294-4f25915b9f08",
+      "874c79b7-0db1-4866-bef8-b8a764ca2c07",
       "Compressor B"
+    ],
+    [
+      "e4d2becf-117e-497f-9f12-ceac6b489ccb",
+      "Expander A"
+    ],
+    [
+      "dffddaae-8335-41ee-b77f-304e1c93bba1",
+      "Expander B"
     ]
   ],
   "text_variables": {},

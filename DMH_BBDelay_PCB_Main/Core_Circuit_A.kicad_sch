@@ -23075,6 +23075,73 @@
 		)
 	)
 	(sheet
+		(at 25.4 139.7)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e4d2becf-117e-497f-9f12-ceac6b489ccb")
+		(property "Sheetname" "Expander A"
+			(at 25.4 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Expander_A.kicad_sch"
+			(at 25.4 165.6846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 25.4 152.4 180)
+			(uuid "4fd637f9-9de5-4286-8fc1-1c5bffa906fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 50.8 152.4 0)
+			(uuid "e75dc5dd-38dc-457b-abe2-1f3aa4e77ef4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 374.65 81.28)
 		(size 25.4 25.4)
 		(exclude_from_sim no)

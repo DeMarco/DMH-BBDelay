@@ -26407,6 +26407,73 @@
 		)
 	)
 	(sheet
+		(at 355.6 127)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "874c79b7-0db1-4866-bef8-b8a764ca2c07")
+		(property "Sheetname" "Compressor B"
+			(at 355.6 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Compressor_B.kicad_sch"
+			(at 355.6 152.9846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 355.6 139.7 180)
+			(uuid "4d792fef-a1ac-45f7-bc1b-528f8c322138")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out" output
+			(at 381 139.7 0)
+			(uuid "d64c3546-9989-4f4a-807f-507d3b178b34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 19.05 133.35)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
@@ -26474,7 +26541,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 241.3)
+		(at 355.6 165.1)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26488,9 +26555,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "db02f693-96f3-4536-a294-4f25915b9f08")
-		(property "Sheetname" "Compressor B"
-			(at 152.4 240.5884 0)
+		(uuid "dffddaae-8335-41ee-b77f-304e1c93bba1")
+		(property "Sheetname" "Expander B"
+			(at 355.6 164.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26500,8 +26567,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Compressor_B.kicad_sch"
-			(at 152.4 267.2846 0)
+		(property "Sheetfile" "Expander_B.kicad_sch"
+			(at 355.6 191.0846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26513,8 +26580,8 @@
 			)
 		)
 		(pin "In" input
-			(at 152.4 254 180)
-			(uuid "6a1fd1b5-0adf-4383-8def-f15bb613b1d6")
+			(at 355.6 177.8 180)
+			(uuid "00b296af-1428-49dc-9011-66f7413e7f7a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26523,8 +26590,8 @@
 			)
 		)
 		(pin "Out" output
-			(at 177.8 254 0)
-			(uuid "829ae215-4366-4a60-a29d-ea343c29690d")
+			(at 381 177.8 0)
+			(uuid "edba1d8a-2095-498a-8770-70f899007068")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26535,7 +26602,7 @@
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
-					(page "16")
+					(page "18")
 				)
 			)
 		)
