@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "D20,D23-28,#PWR255-292,C4,C91-113,R206-241,U22-23,U27-29,RV13,RV28",
+    "used_designators": "#PWR75,#PWR191,#PWR236-241,C18,C69-74,C110,R6,R8,R41-42,R187-191",
     "variants": []
   },
   "sheets": [
@@ -845,6 +845,10 @@
     [
       "dffddaae-8335-41ee-b77f-304e1c93bba1",
       "Expander B"
+    ],
+    [
+      "0bc6b9e8-2a23-483c-9bc6-99b99ebe2845",
+      "Output Filter A"
     ]
   ],
   "text_variables": {},

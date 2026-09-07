@@ -5343,16 +5343,16 @@
 			(uuid "7bbee110-4bc5-46e0-9ea4-e7f2652af484")
 		)
 		(pin "4"
-			(uuid "4f2f519d-74fe-47b4-9211-f6cdc1f14ac0")
+			(uuid "4f2f519d-74fe-47b4-9211-f6cdc1f14ac1")
 		)
 		(pin "2"
-			(uuid "4b4c0826-d33e-42e1-a872-b88619905af9")
+			(uuid "4b4c0826-d33e-42e1-a872-b88619905afa")
 		)
 		(pin "6"
 			(uuid "2a5fec27-a7f2-46c7-b1f0-206601f3eb57")
 		)
 		(pin "3"
-			(uuid "b504022d-72a7-46dd-a51a-a85f1182e57c")
+			(uuid "b504022d-72a7-46dd-a51a-a85f1182e57d")
 		)
 		(pin "8"
 			(uuid "11a182b0-9a08-4c64-a4d6-e105808a3713")

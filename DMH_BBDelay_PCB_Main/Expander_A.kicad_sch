@@ -5735,13 +5735,13 @@
 			(uuid "58ae62a8-7d24-42ca-a647-8d6741e0a8bb")
 		)
 		(pin "5"
-			(uuid "4a6eebc1-d1f4-41de-b812-943500eec7c5")
+			(uuid "4a6eebc1-d1f4-41de-b812-943500eec7c6")
 		)
 		(pin "4"
 			(uuid "591d93f4-e81c-494d-9441-41dc025d930b")
 		)
 		(pin "7"
-			(uuid "f9b38bb0-fa48-46a4-a3c6-58e5643c0a5a")
+			(uuid "f9b38bb0-fa48-46a4-a3c6-58e5643c0a5b")
 		)
 		(pin "3"
 			(uuid "5a8f09b6-37c7-4efc-a0cf-fd921a17ea85")
@@ -5750,7 +5750,7 @@
 			(uuid "a190137d-6fbf-4dd9-bdea-a3dc1a12e32b")
 		)
 		(pin "6"
-			(uuid "02f029d1-dfbe-41e7-a0b0-564c7a533d0b")
+			(uuid "02f029d1-dfbe-41e7-a0b0-564c7a533d0c")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"

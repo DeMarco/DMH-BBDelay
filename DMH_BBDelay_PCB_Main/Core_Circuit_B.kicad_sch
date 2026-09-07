@@ -10577,7 +10577,7 @@
 			)
 		)
 	)
-	(global_label "Wet_A_Out_m"
+	(global_label "Wet_A_TC_Out_m"
 		(shape input)
 		(at 248.92 213.36 0)
 		(fields_autoplaced yes)
@@ -10589,7 +10589,7 @@
 		)
 		(uuid "36ea715b-1e14-401c-8f83-815979da412e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.0608 213.36 0)
+			(at 267.266 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
