@@ -919,6 +919,12 @@
 		(uuid "3aa2dba2-fe40-44e4-9721-6c4e1105da23")
 	)
 	(junction
+		(at 38.1 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4758007b-a702-4f86-b73c-65c72e3735a7")
+	)
+	(junction
 		(at 129.54 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1014,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 76.2) (xy 40.64 76.2)
+			(xy 25.4 76.2) (xy 38.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1154,6 +1160,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 87.63) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af35ba8-7f3d-49db-9146-5ffb6bb85bde")
+	)
+	(wire
+		(pts
 			(xy 63.5 76.2) (xy 66.04 76.2)
 		)
 		(stroke
@@ -1264,6 +1280,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 76.2) (xy 40.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c460d51c-f2b2-42fd-b8fb-6352c7157c8b")
+	)
+	(wire
+		(pts
 			(xy 99.06 76.2) (xy 101.6 76.2)
 		)
 		(stroke
@@ -1271,6 +1297,16 @@
 			(type default)
 		)
 		(uuid "d08255e8-c710-4583-aef3-5ecea3d6cfc9")
+	)
+	(wire
+		(pts
+			(xy 38.1 76.2) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56b1319-e9c8-4778-b86c-09ce8955fc20")
 	)
 	(wire
 		(pts
@@ -1295,7 +1331,7 @@
 	)
 	(hierarchical_label "In"
 		(shape input)
-		(at 38.1 76.2 180)
+		(at 25.4 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1915,6 +1951,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 38.1 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53448e6f-0f3e-49bd-b565-04db090b30b3")
+		(property "Reference" "#PWR0283"
+			(at 38.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c2bc18b-a8a7-4e2c-961f-04dcfa2101ed")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
+					(reference "#PWR0283")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 83.82 180)
 		(unit 1)
@@ -1988,6 +2102,88 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
 					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 83.82 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c4f2db5-5ba0-485f-ac6f-9c7a61948116")
+		(property "Reference" "R160"
+			(at 35.56 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49k9"
+			(at 35.56 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 39.116 83.566 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c6f65a7-d98e-4598-8547-89663cd099b5")
+		)
+		(pin "1"
+			(uuid "56e5a83e-c057-4abd-81c1-2b921870431a")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
+					(reference "R160")
 					(unit 1)
 				)
 			)

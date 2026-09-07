@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "#PWR75,#PWR191,#PWR236-241,C18,C69-74,C110,R6,R8,R41-42,R187-191",
+    "used_designators": "#PWR135,#PWR234-235,#PWR242-245,#PWR283,#PWR290,#PWR292,C35,C75-80,C112,R25,R104,R106,R160,R192-196,R242-243",
     "variants": []
   },
   "sheets": [
@@ -849,6 +849,10 @@
     [
       "0bc6b9e8-2a23-483c-9bc6-99b99ebe2845",
       "Output Filter A"
+    ],
+    [
+      "b220cd30-3d79-47df-ac4c-a5efb41766f0",
+      "Output Filter B"
     ]
   ],
   "text_variables": {},
