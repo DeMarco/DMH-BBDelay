@@ -5666,6 +5666,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 203.2 127 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5673,10 +5674,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "768330a5-ca0a-490b-bb9e-c076be03a6d2")
 		(property "Reference" "U22"
-			(at 203.2 116.84 0)
+			(at 203.2 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5686,7 +5686,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 203.2 119.38 0)
+			(at 203.2 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
