@@ -1853,6 +1853,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fc48c8-09d2-4fa3-9411-35c49d437bd7")
+	)
+	(wire
+		(pts
 			(xy 111.76 25.4) (xy 139.7 25.4)
 		)
 		(stroke
@@ -2040,6 +2050,30 @@
 			(type default)
 		)
 		(uuid "ffd9ef39-2568-4a83-9d35-21e6e3a8ce40")
+	)
+	(global_label "Ref_2v5"
+		(shape output)
+		(at 133.35 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ecd9fb2-2ab2-4f69-80e7-ae221fb120c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.7737 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "Out"
 		(shape output)

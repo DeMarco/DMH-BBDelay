@@ -4133,6 +4133,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
@@ -5762,6 +5951,12 @@
 		(uuid "5aea5eca-1e16-4bd0-82ec-58fe3a744a44")
 	)
 	(junction
+		(at 264.16 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b22ce64-ab08-477f-ac62-067d18e78331")
+	)
+	(junction
 		(at 267.97 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5802,6 +5997,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "873a2eec-a487-47db-a6a8-2ccc418d08a9")
+	)
+	(junction
+		(at 243.84 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c6b25ca-bda7-4332-b16f-5122ae2909df")
 	)
 	(junction
 		(at 184.15 152.4)
@@ -6247,6 +6448,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 44.45) (xy 243.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15bda5b3-0713-4410-a756-15e875892139")
+	)
+	(wire
+		(pts
 			(xy 228.6 118.11) (xy 223.52 118.11)
 		)
 		(stroke
@@ -6294,6 +6505,16 @@
 			(type default)
 		)
 		(uuid "17c18895-4d5f-4680-a91d-c87b8d2b7bc1")
+	)
+	(wire
+		(pts
+			(xy 264.16 44.45) (xy 264.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184b26be-6d33-4864-b0b6-4574d4cbcc9d")
 	)
 	(wire
 		(pts
@@ -6617,16 +6838,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 57.15) (xy 264.16 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dcce1c7-3240-432a-aa63-96991da61f77")
-	)
-	(wire
-		(pts
 			(xy 298.45 48.26) (xy 298.45 39.37)
 		)
 		(stroke
@@ -6634,6 +6845,16 @@
 			(type default)
 		)
 		(uuid "2f62bdb5-8a8e-4970-a431-7111039b5879")
+	)
+	(wire
+		(pts
+			(xy 222.25 57.15) (xy 231.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a77997-e169-4945-aaa1-49a00710d5ac")
 	)
 	(wire
 		(pts
@@ -6724,6 +6945,16 @@
 			(type default)
 		)
 		(uuid "38416e0b-5158-4b0b-aa38-189527fb9f2a")
+	)
+	(wire
+		(pts
+			(xy 243.84 57.15) (xy 243.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f635d7-75da-4f87-a62c-e4b45c26d7cb")
 	)
 	(wire
 		(pts
@@ -7707,6 +7938,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 57.15) (xy 250.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7822f069-9edc-432d-afaf-bf9b5370a604")
+	)
+	(wire
+		(pts
 			(xy 45.72 73.66) (xy 45.72 88.9)
 		)
 		(stroke
@@ -7804,6 +8045,16 @@
 			(type default)
 		)
 		(uuid "7d210430-13a0-4dbf-8436-c890f6288e3d")
+	)
+	(wire
+		(pts
+			(xy 257.81 57.15) (xy 264.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec91ac5-0c3d-4fd9-82d5-e53c6acb578d")
 	)
 	(wire
 		(pts
@@ -8017,6 +8268,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 59.69) (xy 222.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902f0f4f-eafd-4f3d-af11-947e6432953c")
+	)
+	(wire
+		(pts
 			(xy 128.27 44.45) (xy 139.7 44.45)
 		)
 		(stroke
@@ -8054,6 +8315,16 @@
 			(type default)
 		)
 		(uuid "93437dae-4c86-42b4-916b-0d4e9682e338")
+	)
+	(wire
+		(pts
+			(xy 259.08 44.45) (xy 264.16 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934a7f12-7471-4ab5-a511-aaf25d123377")
 	)
 	(wire
 		(pts
@@ -8124,6 +8395,16 @@
 			(type default)
 		)
 		(uuid "9d1f9b32-b756-4e14-ac44-f109c3c4e2cf")
+	)
+	(wire
+		(pts
+			(xy 248.92 44.45) (xy 243.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4a93ce-a1bc-4d9a-97dc-5108f0f8f5c3")
 	)
 	(wire
 		(pts
@@ -9377,6 +9658,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 57.15) (xy 243.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3dc55d-7611-456a-b333-a7548d625402")
+	)
+	(wire
+		(pts
 			(xy 137.16 147.32) (xy 137.16 149.86)
 		)
 		(stroke
@@ -9504,16 +9795,6 @@
 			(type default)
 		)
 		(uuid "f8343f08-8c23-4bab-9ee3-166390af1689")
-	)
-	(wire
-		(pts
-			(xy 243.84 67.31) (xy 243.84 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8defa58-9aa8-48a5-bee4-3228d4e31ac8")
 	)
 	(wire
 		(pts
@@ -11598,6 +11879,86 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 234.95 57.15 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "09e32425-a750-4317-9656-110c17192522")
+		(property "Reference" "R245"
+			(at 234.95 51.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18k"
+			(at 234.95 54.102 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 235.204 58.166 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 234.95 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c9ed62d-89f1-41ae-a6c7-18cc4ae9ad0c")
+		)
+		(pin "1"
+			(uuid "9d25df20-ff60-4766-8c61-4a4f146b741a")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "R245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 304.8 185.42 270)
 		(mirror x)
 		(unit 1)
@@ -12149,6 +12510,86 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 254 57.15 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "182a4851-b63d-4b07-9168-0ff1fe9d0875")
+		(property "Reference" "R246"
+			(at 254 51.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120k"
+			(at 254 54.102 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 254.254 58.166 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 254 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b60142e7-279e-4c55-9149-ac8de1badcae")
+		)
+		(pin "1"
+			(uuid "3796a08d-b14b-48d5-abe3-d6f56a0a92ee")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "R246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 304.8 154.94 90)
 		(mirror x)
 		(unit 1)
@@ -12339,6 +12780,86 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "U5")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 254 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ed9eb92-d7ce-4d6d-a4e2-d0cf778bab54")
+		(property "Reference" "JP7"
+			(at 254 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 254 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 254 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 254 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa5a14ed-939b-482d-ad32-49c5e0c2bfd8")
+		)
+		(pin "1"
+			(uuid "db7cfd0c-4e25-4fd9-a856-e8bd53f4ea0b")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "JP7")
+					(unit 1)
 				)
 			)
 		)
@@ -16653,6 +17174,84 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3ed8d3-eb50-4473-8b32-bfc5c5512c8b")
+		(property "Reference" "#PWR0292"
+			(at 222.25 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d933634c-02b4-4e2a-ba1b-162ef537eb33")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "#PWR0292")
 					(unit 1)
 				)
 			)

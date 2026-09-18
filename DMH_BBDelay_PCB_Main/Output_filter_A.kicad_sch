@@ -879,7 +879,7 @@
 		)
 	)
 	(circle
-		(center 139.7 63.5)
+		(center 35.56 83.82)
 		(radius 5.08)
 		(stroke
 			(width 0)
@@ -888,17 +888,17 @@
 		(fill
 			(type none)
 		)
-		(uuid "7f0d3a95-a6da-432c-9da7-95a70eb68517")
+		(uuid "b18336e7-f73a-40dc-b02e-a1c20026c398")
 	)
-	(text "Used 124k"
+	(text "Used 47k"
 		(exclude_from_sim no)
-		(at 139.954 57.404 0)
+		(at 24.892 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "cd0c3fd8-dbce-4b68-a7c5-1a027a1e954a")
+		(uuid "200ad7bf-00c3-44ea-acde-de5c499a856e")
 	)
 	(junction
 		(at 101.6 76.2)
