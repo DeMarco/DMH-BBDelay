@@ -742,6 +742,12 @@
 		)
 	)
 	(junction
+		(at 38.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "240974ea-ec0b-49ab-a0e5-0d58bc3e9eea")
+	)
+	(junction
 		(at 88.9 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -796,22 +802,16 @@
 		(uuid "a45a7e3c-c33c-40d0-af61-0bc8d58ba60b")
 	)
 	(junction
-		(at 50.8 63.5)
+		(at 101.6 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1342b87-5f2f-4753-b52a-20efb3e6200b")
+		(uuid "e1915f70-9d1a-46ed-a0cf-e6f98528cc4b")
 	)
 	(junction
 		(at 63.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c36b4f0e-0e55-4ef0-b6b2-723388a3b965")
-	)
-	(junction
-		(at 101.6 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1915f70-9d1a-46ed-a0cf-e6f98528cc4b")
+		(uuid "e4867bf9-815b-4583-a9da-4ea2ac409dd8")
 	)
 	(junction
 		(at 101.6 63.5)
@@ -847,7 +847,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 80.01) (xy 50.8 82.55)
+			(xy 38.1 80.01) (xy 38.1 82.55)
 		)
 		(stroke
 			(width 0)
@@ -864,16 +864,6 @@
 			(type default)
 		)
 		(uuid "1952a8b1-1d70-4f5b-8fae-cadd8b672d20")
-	)
-	(wire
-		(pts
-			(xy 50.8 63.5) (xy 53.34 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca4e7b1-8b14-4f8b-bd32-02d04c9ef17b")
 	)
 	(wire
 		(pts
@@ -927,7 +917,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 82.55) (xy 63.5 82.55)
+			(xy 38.1 82.55) (xy 63.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1127,6 +1117,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 63.5) (xy 40.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4551bb8-c93b-4389-8bc1-30fd5d62a50c")
+	)
+	(wire
+		(pts
 			(xy 76.2 80.01) (xy 76.2 82.55)
 		)
 		(stroke
@@ -1147,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 50.8 63.5)
+			(xy 25.4 63.5) (xy 38.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1187,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 50.8 72.39)
+			(xy 38.1 63.5) (xy 38.1 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1214,6 +1214,16 @@
 			(type default)
 		)
 		(uuid "f54922bc-0af3-4e92-aa71-7e77b3715200")
+	)
+	(wire
+		(pts
+			(xy 48.26 63.5) (xy 53.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ba4976-25f9-4459-9179-2f7777931e44")
 	)
 	(wire
 		(pts
@@ -1282,7 +1292,7 @@
 	)
 	(hierarchical_label "In"
 		(shape input)
-		(at 38.1 63.5 180)
+		(at 25.4 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1745,6 +1755,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 44.45 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ff89d2-9249-4c73-9ca4-1314069db97c")
+		(property "Reference" "C114"
+			(at 44.45 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 44.45 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 48.26 62.5348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 44.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81687fea-c567-4f73-975a-1587637cd93c")
+		)
+		(pin "2"
+			(uuid "8471c00d-1bae-48bc-92ce-78c7a1b46d8c")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/9104bdbd-0802-4c59-bf61-2977ca5bff15"
+					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 107.95 63.5 90)
 		(mirror x)
@@ -2004,7 +2094,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 50.8 76.2 0)
+		(at 38.1 76.2 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2015,7 +2105,7 @@
 		(dnp no)
 		(uuid "b41046c3-5bd2-45f2-a1dd-01a425f51032")
 		(property "Reference" "R104"
-			(at 48.26 74.9299 0)
+			(at 35.56 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2026,7 +2116,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 48.26 77.4699 0)
+			(at 35.56 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2037,7 +2127,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 51.816 75.946 90)
+			(at 39.116 75.946 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2048,7 +2138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 76.2 0)
+			(at 38.1 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2059,7 +2149,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 50.8 76.2 0)
+			(at 38.1 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2070,9 +2070,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "57552bf3-b179-46d9-88bd-4c5c07af95f2")
-		(property "Reference" "C35"
-			(at 44.45 69.596 90)
+		(fields_autoplaced yes)
+		(uuid "59a444aa-4761-4a42-a6fa-2d3d15ed8083")
+		(property "Reference" "C115"
+			(at 44.45 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2081,8 +2082,8 @@
 				)
 			)
 		)
-		(property "Value" "1uF Film"
-			(at 44.45 72.136 90)
+		(property "Value" "4.7uF"
+			(at 44.45 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2091,7 +2092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 48.26 75.2348 0)
 			(hide yes)
 			(show_name no)
@@ -2124,26 +2125,16 @@
 				)
 			)
 		)
-		(property "Function" ""
-			(at 44.45 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "bd789da5-8859-4497-a42e-38438bac6f20")
+			(uuid "3bf10405-b06a-4f95-ae06-0091a5f03e67")
 		)
 		(pin "2"
-			(uuid "5a2ab1bc-b3c2-4e5d-bce3-c8ade0684966")
+			(uuid "355c3bb1-0473-4c24-af5f-9d418fc404ae")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/b220cd30-3d79-47df-ac4c-a5efb41766f0"
-					(reference "C35")
+					(reference "C115")
 					(unit 1)
 				)
 			)
