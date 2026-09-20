@@ -2374,6 +2374,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 139.7 35.56)
+		(radius 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "387c64e0-6361-450e-9b98-48291e302903")
+	)
+	(text "The attack time of this expader is way too slow for a decent plucky\ndelay effect, but reducing the 330nF cap distorts the signal heavily.\nReducing R228 from 200k to 120k helped\nThe loos in expansion could be easily compensated with RV13."
+		(exclude_from_sim no)
+		(at 188.468 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2059f20a-5e7f-4f8c-adf1-77a032840e29")
+	)
 	(junction
 		(at 127 38.1)
 		(diameter 0)
@@ -7165,7 +7187,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "120k"
 			(at 139.7 35.052 90)
 			(show_name no)
 			(do_not_autoplace no)

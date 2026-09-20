@@ -4466,6 +4466,16 @@
 		)
 		(uuid "ecfd5a20-5375-422b-9c8b-ef6e76ad5bd8")
 	)
+	(text "The feedback is entering runaway resonance at helf pot already.\nTry removing Tone Control from the feedback loop again to see if it\nimproves. Note: the FB VCA will need to invert phase."
+		(exclude_from_sim no)
+		(at 371.602 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3057753-ca11-4267-bfd6-0d599f193991")
+	)
 	(junction
 		(at 241.3 247.65)
 		(diameter 0)

@@ -900,6 +900,26 @@
 		)
 		(uuid "200ad7bf-00c3-44ea-acde-de5c499a856e")
 	)
+	(text "This filter seems to be rolling off the signal at 1kHz (C5) already.\nIt should have a -3dB attenuation as of 5kHz only.\nTry simulating it to see how it can be improved."
+		(exclude_from_sim no)
+		(at 170.688 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28de0516-4466-43d0-8cb4-11a0990b9b9e")
+	)
+	(text "This 49.9k resistor seems to have no effect,\nsince this input comes from a OpAmp output directly."
+		(exclude_from_sim no)
+		(at 46.482 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee673095-5243-4a0e-8ae4-9969b296561f")
+	)
 	(junction
 		(at 101.6 76.2)
 		(diameter 0)

@@ -1776,7 +1776,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "3.3uF"
 			(at 44.45 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
