@@ -24,18 +24,18 @@
         {
           "color": "rgb(228, 26, 28)",
           "cursor1": {
-            "position": 991.9345129252719,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
+            "position": 20174.675826714316,
+            "x_format": "3~s",
+            "y_format": "3~V"
           },
           "cursor2": {
-            "position": 15318.936111586703,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
+            "position": 40127.646350700306,
+            "x_format": "3~s",
+            "y_format": "3~V"
           },
           "cursorD": {
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
+            "x_format": "3~s",
+            "y_format": "3~V"
           },
           "signal": "V(IF_Out) (gain)",
           "trace_type": 521
@@ -63,6 +63,20 @@
       "traces": [
         {
           "color": "rgb(228, 26, 28)",
+          "cursor1": {
+            "position": 0.004185228604923799,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursor2": {
+            "position": 0.004689331770222743,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
           "signal": "V(IF_In)",
           "trace_type": 257
         },
@@ -94,6 +108,20 @@
       "traces": [
         {
           "color": "rgb(255, 0, 0)",
+          "cursor1": {
+            "position": 4620.753258335898,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursor2": {
+            "position": 201202.89817994484,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
           "signal": "V(OF_Out) (gain)",
           "trace_type": 521
         }
@@ -102,7 +130,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 10u 100m",
+        ".tran 10u 10m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",

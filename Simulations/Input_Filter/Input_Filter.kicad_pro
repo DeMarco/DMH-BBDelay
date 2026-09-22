@@ -701,7 +701,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "D1-2,#PWR1-4,#PWR8-17,#PWR75,#PWR184,#PWR188,#PWR191,#PWR224,#PWR230-231,#PWR236-242,#PWR283,C1-2,C5,C55-62,C69-74,C110,C112,C116,J9,J100,#FLG1-4,R6,R41-42,R158-160,R177-178,R187-191,U1-2,U21,V1-6",
+    "used_designators": "U1-2,U21-22,#PWR17,#PWR188-191,#PWR224-226,#PWR230,#PWR236-240,#PWR283,C55,C57,C60-62,C69-74,C116,R160,R187-191,V6",
     "variants": []
   },
   "sheets": [
@@ -714,7 +714,7 @@
       "Input Filter A"
     ],
     [
-      "5e8aa869-c87f-4d6b-8066-0830d3bbdd48",
+      "33c3b79b-6004-41bc-8d92-8090d0a043c8",
       "Output Filter A"
     ]
   ],
