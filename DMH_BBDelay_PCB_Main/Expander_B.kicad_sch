@@ -4476,7 +4476,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "1k"
 			(at 52.705 122.047 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5265,7 +5265,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "737d786e-a2ca-4096-977d-57f0c70c3574")
 		(property "Reference" "C96"
 			(at 50.8 134.62 0)

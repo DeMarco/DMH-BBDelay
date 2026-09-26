@@ -5855,10 +5855,10 @@
 		(uuid "09cf9d02-b499-45ff-a142-477970f42dc8")
 	)
 	(junction
-		(at 45.72 88.9)
+		(at 66.04 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16ee1daf-172d-47d2-94ae-0acee5485e0b")
+		(uuid "2266f801-aa48-43ac-8b2f-3ad0c3bdfacc")
 	)
 	(junction
 		(at 298.45 154.94)
@@ -5945,6 +5945,12 @@
 		(uuid "4a62039b-06f8-454c-b009-e1b8065307c7")
 	)
 	(junction
+		(at 45.72 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aca76e8-457b-489e-81e5-33e27841732b")
+	)
+	(junction
 		(at 264.16 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5973,6 +5979,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "801067fe-e9f4-41ce-9f15-1319f81f2601")
+	)
+	(junction
+		(at 45.72 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8468d6eb-22cd-4616-8489-287537a825a4")
 	)
 	(junction
 		(at 171.45 91.44)
@@ -6101,6 +6113,12 @@
 		(uuid "cf3dcab3-f3c3-457f-883c-6224e9a0f9ba")
 	)
 	(junction
+		(at 66.04 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d200f838-c97b-4d4e-9a8a-994cefc44450")
+	)
+	(junction
 		(at 232.41 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6123,12 +6141,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1274e00-e749-4e0c-b2be-a4416c946203")
-	)
-	(junction
-		(at 45.72 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f067ea17-583e-4630-b337-1dbe598e6598")
 	)
 	(junction
 		(at 278.13 31.75)
@@ -6238,7 +6250,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 67.31) (xy 63.5 50.8)
+			(xy 63.5 64.77) (xy 63.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6308,7 +6320,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 67.31) (xy 76.2 73.66)
+			(xy 76.2 67.31) (xy 76.2 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7018,6 +7030,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0f5845-5708-4894-85eb-3945de5dabf3")
+	)
+	(wire
+		(pts
 			(xy 88.9 237.49) (xy 96.52 237.49)
 		)
 		(stroke
@@ -7658,6 +7680,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 80.01) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6565b8e9-f50d-40fe-8196-b5d743385067")
+	)
+	(wire
+		(pts
 			(xy 267.97 157.48) (xy 274.32 157.48)
 		)
 		(stroke
@@ -7948,7 +7980,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 73.66) (xy 45.72 88.9)
+			(xy 45.72 69.85) (xy 45.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8168,7 +8200,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 82.55) (xy 45.72 82.55)
+			(xy 48.26 82.55) (xy 45.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8828,6 +8860,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 82.55) (xy 45.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6665756-1c6a-4d5b-85b8-93edb6b23199")
+	)
+	(wire
+		(pts
 			(xy 140.97 81.28) (xy 143.51 81.28)
 		)
 		(stroke
@@ -9258,7 +9300,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 82.55) (xy 66.04 82.55)
+			(xy 55.88 82.55) (xy 66.04 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9488,6 +9530,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 69.85) (xy 66.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b05096-b0a6-4eb9-b21a-8eb9638fb013")
+	)
+	(wire
+		(pts
 			(xy 391.16 48.26) (xy 406.4 48.26)
 		)
 		(stroke
@@ -9568,7 +9620,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 67.31) (xy 63.5 67.31)
+			(xy 60.96 64.77) (xy 63.5 64.77)
 		)
 		(stroke
 			(width 0)
@@ -9848,7 +9900,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 73.66) (xy 76.2 73.66)
+			(xy 45.72 69.85) (xy 66.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -11553,7 +11605,7 @@
 	)
 	(global_label "Dry_B_Buff_m"
 		(shape output)
-		(at 60.96 67.31 180)
+		(at 60.96 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11563,7 +11615,7 @@
 		)
 		(uuid "f043a329-5b5d-4afb-b890-a3a8d373a41a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.2145 67.31 0)
+			(at 45.2145 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11799,7 +11851,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 55.88 82.55 90)
+		(at 52.07 82.55 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11810,7 +11862,7 @@
 		(dnp no)
 		(uuid "04237f22-0b35-493d-b8f6-64d3bddeb5a9")
 		(property "Reference" "R90"
-			(at 55.88 77.216 90)
+			(at 52.07 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11820,7 +11872,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 55.88 79.502 90)
+			(at 52.07 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11830,7 +11882,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 56.134 83.566 90)
+			(at 52.324 83.566 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11841,7 +11893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 82.55 0)
+			(at 52.07 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11852,7 +11904,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 55.88 82.55 0)
+			(at 52.07 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20167,6 +20219,96 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5fa4c52-a415-48e3-8ab0-37404f72a892")
+		(property "Reference" "C118"
+			(at 60.96 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33pF"
+			(at 60.96 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 65.0748 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 66.04 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d965cb72-931c-435b-8ec9-08ddf0fb37ba")
+		)
+		(pin "2"
+			(uuid "b3004672-e76d-4c1d-b995-3b78fed64f2c")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "C118")
 					(unit 1)
 				)
 			)

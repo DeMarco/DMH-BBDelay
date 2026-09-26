@@ -4499,12 +4499,6 @@
 		(uuid "11dced87-8970-42ee-b633-a0131821faed")
 	)
 	(junction
-		(at 40.64 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "158a616f-847b-4b69-9964-376888ec6aa9")
-	)
-	(junction
 		(at 298.45 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4515,6 +4509,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28a34b04-3812-4299-a159-7d32a92a77eb")
+	)
+	(junction
+		(at 60.96 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b8d0be4-66fb-4ddf-91b1-7cdcbf678e03")
 	)
 	(junction
 		(at 50.8 171.45)
@@ -4661,6 +4661,12 @@
 		(uuid "938fb9a3-803e-4233-845f-7929a21fa19b")
 	)
 	(junction
+		(at 60.96 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9576d938-7d23-4f28-a7d1-ff0f6e2fd0bc")
+	)
+	(junction
 		(at 177.8 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4683,6 +4689,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a20fcddf-9608-4311-aaca-94b19bdffa9e")
+	)
+	(junction
+		(at 40.64 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a501d428-c7fb-49ed-8e0f-5ef8ad48d876")
 	)
 	(junction
 		(at 27.94 40.64)
@@ -5716,13 +5728,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 67.31) (xy 69.85 67.31)
+			(xy 40.64 67.31) (xy 60.96 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42ac311b-920e-4300-b7cd-b5f064795b5f")
+	)
+	(wire
+		(pts
+			(xy 60.96 67.31) (xy 60.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4590bcd8-ad01-43c4-b76e-5b662596223c")
 	)
 	(wire
 		(pts
@@ -5753,16 +5775,6 @@
 			(type default)
 		)
 		(uuid "49ca2961-aa21-4c10-90d6-b92c4ee38103")
-	)
-	(wire
-		(pts
-			(xy 40.64 78.74) (xy 40.64 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a94ccbb-35fa-4ed9-a2c8-4cedd504d8c0")
 	)
 	(wire
 		(pts
@@ -5996,6 +6008,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 67.31) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b94ab26-dbcf-400d-984f-9b653d23d9ad")
+	)
+	(wire
+		(pts
 			(xy 209.55 31.75) (xy 278.13 31.75)
 		)
 		(stroke
@@ -6163,6 +6185,16 @@
 			(type default)
 		)
 		(uuid "663a9cf0-48e5-4616-b413-53b713cf5016")
+	)
+	(wire
+		(pts
+			(xy 60.96 78.74) (xy 60.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b23590-9e23-483e-8510-c923e2ea31db")
 	)
 	(wire
 		(pts
@@ -7076,6 +7108,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 54.61) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b089b686-abae-41db-83e4-913466772c43")
+	)
+	(wire
+		(pts
 			(xy 267.97 149.86) (xy 267.97 157.48)
 		)
 		(stroke
@@ -7216,7 +7258,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 67.31) (xy 40.64 71.12)
+			(xy 40.64 67.31) (xy 40.64 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7506,7 +7548,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 31.75) (xy 69.85 67.31)
+			(xy 69.85 31.75) (xy 69.85 46.99)
 		)
 		(stroke
 			(width 0)
@@ -10405,88 +10447,6 @@
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 40.64 74.93 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b2c9df1-3f75-48cf-a596-9183fd0e037c")
-		(property "Reference" "R8"
-			(at 38.1 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 38.1 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 41.656 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 40.64 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0add0e22-35a2-4528-b2f8-88e92ca808fa")
-		)
-		(pin "1"
-			(uuid "48709e8b-5f31-43a0-9d11-38be46416112")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R8")
-					(unit 1)
 				)
 			)
 		)
@@ -16955,6 +16915,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 69.85 50.8 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab5e0cb2-bdeb-4a3c-81c6-0b5855e5b1f5")
+		(property "Reference" "R8"
+			(at 67.31 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 67.31 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 70.866 50.546 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 69.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "acb57c26-bca5-410e-a36e-335b53944f3a")
+		)
+		(pin "1"
+			(uuid "a4c5818b-e978-4415-b68e-ae5c2917a935")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 96.52 144.78 180)
 		(unit 1)
@@ -20316,6 +20358,95 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f99592da-81d6-4312-a07a-f8a40bca215c")
+		(property "Reference" "C117"
+			(at 66.04 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33pF"
+			(at 66.04 73.914 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 61.9252 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 60.96 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92ca9c27-55b8-45ad-a242-99e9f0c34c2d")
+		)
+		(pin "2"
+			(uuid "283da50f-dcba-4056-b845-ddf54bf25d65")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "C117")
 					(unit 1)
 				)
 			)
