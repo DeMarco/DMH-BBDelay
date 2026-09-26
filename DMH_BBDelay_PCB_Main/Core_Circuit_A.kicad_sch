@@ -4466,6 +4466,16 @@
 		)
 		(uuid "ecfd5a20-5375-422b-9c8b-ef6e76ad5bd8")
 	)
+	(text "Add the decoupling caps to the\nBBD and CD4046 on the breadboard"
+		(exclude_from_sim no)
+		(at 111.76 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "397d771a-d5e7-425f-af02-6a603c89badc")
+	)
 	(text "The feedback is entering runaway resonance at helf pot already.\nTry removing Tone Control from the feedback loop again to see if it\nimproves. Note: the FB VCA will need to invert phase."
 		(exclude_from_sim no)
 		(at 371.602 118.11 0)
