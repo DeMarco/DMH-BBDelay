@@ -2374,6 +2374,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 54.864 120.142)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0e42cc7e-67ac-408f-bf79-db53f2386dd5")
+	)
+	(text "Changed resistor from 100R to 1k,\nand replaced 2n2 with short"
+		(exclude_from_sim no)
+		(at 34.29 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fddb38a8-6c0d-44ec-bbd0-83d0e302a8b1")
+	)
 	(junction
 		(at 127 38.1)
 		(diameter 0)
@@ -6539,7 +6561,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "100k"
 			(at 139.7 35.052 90)
 			(show_name no)
 			(do_not_autoplace no)

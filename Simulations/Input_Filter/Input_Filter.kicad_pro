@@ -701,7 +701,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "U1-2,U21-22,#PWR17,#PWR188-191,#PWR224-226,#PWR230,#PWR236-240,#PWR283,C55,C57,C60-62,C69-74,C116,R160,R187-191,V6",
+    "used_designators": "#PWR5-6,#PWR18,#PWR110-111,#PWR192-195,C44-53,R1-2,R162-169,V7,RV11,U17-18",
     "variants": []
   },
   "sheets": [
@@ -716,6 +716,14 @@
     [
       "33c3b79b-6004-41bc-8d92-8090d0a043c8",
       "Output Filter A"
+    ],
+    [
+      "c4bfcf50-c1d9-4c95-894e-334dc4e2fd37",
+      "Tone Control A"
+    ],
+    [
+      "583e9492-34ce-48dc-8b74-94655446f9ea",
+      "Tone Control B"
     ]
   ],
   "text_variables": {},

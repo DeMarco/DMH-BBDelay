@@ -5885,6 +5885,12 @@
 		(uuid "28a34b04-3812-4299-a159-7d32a92a77eb")
 	)
 	(junction
+		(at 140.97 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2efa4e17-1161-495b-ba8d-7ae4c3eb2a29")
+	)
+	(junction
 		(at 213.36 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6327,6 +6333,16 @@
 			(type default)
 		)
 		(uuid "0c40ad56-c678-4c40-8c09-c09caece02e7")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9540e6-bbc5-41c2-92e0-0e14b4103384")
 	)
 	(wire
 		(pts
@@ -6927,6 +6943,16 @@
 			(type default)
 		)
 		(uuid "363bcadf-6286-4c1b-ad69-ad4632f3675a")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c34a8c-7db9-4acf-aecd-9f9d1cfb87fd")
 	)
 	(wire
 		(pts
@@ -8710,7 +8736,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 140.97 81.28)
+			(xy 140.97 63.5) (xy 140.97 67.31)
 		)
 		(stroke
 			(width 0)
@@ -9007,6 +9033,16 @@
 			(type default)
 		)
 		(uuid "bed9b2fd-777c-4e8e-8886-8e3db8afab75")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef85458-8488-4928-ad11-01156a0fcf57")
 	)
 	(wire
 		(pts
@@ -9627,6 +9663,16 @@
 			(type default)
 		)
 		(uuid "e870e1a1-97a1-4610-85aa-fbdaec2d0417")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89fb464-3dbb-4295-9707-c6e5863ef04e")
 	)
 	(wire
 		(pts
@@ -10332,7 +10378,7 @@
 			)
 		)
 	)
-	(global_label "Wet_A_TC_Out_m"
+	(global_label "Wet_A_Out_m"
 		(shape input)
 		(at 248.92 213.36 0)
 		(fields_autoplaced yes)
@@ -10344,7 +10390,7 @@
 		)
 		(uuid "36ea715b-1e14-401c-8f83-815979da412e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.266 213.36 0)
+			(at 264.0608 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12918,7 +12964,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 140.97 78.74 0)
+		(at 140.97 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12929,7 +12975,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f1c5f3b-30c3-4f58-bbd8-388167a63426")
 		(property "Reference" "#PWR0120"
-			(at 140.97 82.55 0)
+			(at 140.97 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,7 +12986,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 140.97 73.66 0)
+			(at 140.97 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12950,7 +12996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 78.74 0)
+			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12961,7 +13007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 78.74 0)
+			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12972,7 +13018,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 78.74 0)
+			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17687,6 +17733,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 152.4 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a19709d-bb1f-4483-8b11-36fd30d85437")
+		(property "Reference" "C35"
+			(at 152.4 60.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 152.4 63.246 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 156.21 66.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf320f24-5fc0-4336-9456-8db17ff48586")
+		)
+		(pin "2"
+			(uuid "3aee64d9-3fc4-4702-a123-8e5bdd7f4235")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 190.5 76.2 0)
 		(mirror x)
@@ -18114,6 +18239,84 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86bf1bb4-c724-4f04-8f70-a51e5c510780")
+		(property "Reference" "#PWR0294"
+			(at 160.02 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a7ecdf8-6673-4e66-8dc1-cdde4255498c")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
+					(reference "#PWR0294")
 					(unit 1)
 				)
 			)
@@ -20246,7 +20449,7 @@
 				)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "100pF"
 			(at 60.96 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)

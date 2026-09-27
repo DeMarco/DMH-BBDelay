@@ -2386,7 +2386,19 @@
 		)
 		(uuid "387c64e0-6361-450e-9b98-48291e302903")
 	)
-	(text "The attack time of this expader is way too slow for a decent plucky\ndelay effect, but reducing the 330nF cap distorts the signal heavily.\nReducing R228 from 200k to 120k helped\nThe loos in expansion could be easily compensated with RV13."
+	(circle
+		(center 54.61 120.65)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4c013510-cf21-4071-9fce-d29fcff82b5b")
+	)
+	(text "The attack time of this expader is way too slow for a decent plucky\ndelay effect, but reducing the 330nF cap distorts the signal heavily.\nReducing R228 from 200k to 100k helped\nThe loos in expansion could be easily compensated with RV13."
 		(exclude_from_sim no)
 		(at 188.468 33.528 0)
 		(effects
@@ -2395,6 +2407,16 @@
 			)
 		)
 		(uuid "2059f20a-5e7f-4f8c-adf1-77a032840e29")
+	)
+	(text "Changed resistor from 100R to 1k,\nand replaced 2n2 with short"
+		(exclude_from_sim no)
+		(at 34.036 128.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e811d1c5-e53b-48b8-8556-2ce9ff54b13f")
 	)
 	(junction
 		(at 127 38.1)
@@ -7187,7 +7209,7 @@
 				)
 			)
 		)
-		(property "Value" "120k"
+		(property "Value" "100k"
 			(at 139.7 35.052 90)
 			(show_name no)
 			(do_not_autoplace no)

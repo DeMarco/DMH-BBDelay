@@ -2027,6 +2027,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Bypassing this capacitor with a short improved the frequent\nloud excursions of this compressor."
+		(exclude_from_sim no)
+		(at 91.694 133.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b725191c-2d96-4891-a35c-dee391538e1b")
+	)
 	(junction
 		(at 171.45 64.77)
 		(diameter 0)

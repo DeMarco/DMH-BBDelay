@@ -2027,9 +2027,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Bypassing this capacitor improved the frequent loud excursions\nof this compressor. I suspect it's because the input current is\nrelatively large: a +5Vp will give 500uA at the VCA input.\nIf the input signal for any reason tops at 11V (max OpAmp output),\nthe current will be 1.1mA, still within the headroom of 2mA\ninput current of the VCA.\nNevertheless, try higher input resistor values here while restoring the\n2.2nF capacitor."
+	(text "Bypassing this capacitor with a short improved the frequent\nloud excursions of this compressor."
 		(exclude_from_sim no)
-		(at 99.822 137.668 0)
+		(at 93.726 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)

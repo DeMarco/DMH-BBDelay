@@ -25,17 +25,17 @@
           "color": "rgb(228, 26, 28)",
           "cursor1": {
             "position": 20174.675826714316,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "cursor2": {
             "position": 40127.646350700306,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "signal": "V(IF_Out) (gain)",
           "trace_type": 521
@@ -65,17 +65,17 @@
           "color": "rgb(228, 26, 28)",
           "cursor1": {
             "position": 0.004185228604923799,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "cursor2": {
             "position": 0.004689331770222743,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "signal": "V(IF_In)",
           "trace_type": 257
@@ -109,18 +109,18 @@
         {
           "color": "rgb(255, 0, 0)",
           "cursor1": {
-            "position": 4620.753258335898,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "position": 5175.481517851876,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "cursor2": {
-            "position": 201202.89817994484,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "position": 1041.321880868533,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "signal": "V(OF_Out) (gain)",
           "trace_type": 521
@@ -155,6 +155,37 @@
           "color": "rgb(55, 126, 184)",
           "signal": "V(OF_Out)",
           "trace_type": 257
+        }
+      ]
+    },
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 10 20 20k",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(TC_A_Out) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(TC_B_Out) (gain)",
+          "trace_type": 521
         }
       ]
     }

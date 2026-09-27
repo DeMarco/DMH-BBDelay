@@ -4466,16 +4466,6 @@
 		)
 		(uuid "ecfd5a20-5375-422b-9c8b-ef6e76ad5bd8")
 	)
-	(text "Add the decoupling caps to the\nBBD and CD4046 on the breadboard"
-		(exclude_from_sim no)
-		(at 111.76 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "397d771a-d5e7-425f-af02-6a603c89badc")
-	)
 	(text "The feedback is entering runaway resonance at helf pot already.\nTry removing Tone Control from the feedback loop again to see if it\nimproves. Note: the FB VCA will need to invert phase."
 		(exclude_from_sim no)
 		(at 371.602 118.11 0)
@@ -4587,6 +4577,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44bb485b-c23f-4724-8c4c-0e0d846cfd77")
+	)
+	(junction
+		(at 337.82 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44d20b2f-7c81-4a30-893d-38b01bc52bec")
 	)
 	(junction
 		(at 254 273.05)
@@ -4721,12 +4717,6 @@
 		(uuid "c5048c41-1873-4e7f-9d9b-c31c6295a40a")
 	)
 	(junction
-		(at 278.13 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c68f41b0-ad50-4663-bc6c-1ff76aa2c265")
-	)
-	(junction
 		(at 219.71 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4767,6 +4757,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1274e00-e749-4e0c-b2be-a4416c946203")
+	)
+	(junction
+		(at 140.97 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4eb04da-be11-4a51-935a-1c64584d6f9b")
 	)
 	(junction
 		(at 246.38 214.63)
@@ -4835,6 +4831,16 @@
 			(type default)
 		)
 		(uuid "01a5d512-ced0-4e84-9a27-1cb105448337")
+	)
+	(wire
+		(pts
+			(xy 209.55 31.75) (xy 274.32 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0211161e-736c-478b-9c63-90bc970df0c1")
 	)
 	(wire
 		(pts
@@ -5228,6 +5234,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 86.36) (xy 337.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210efac9-79d1-42d2-b18e-497f6f3a1690")
+	)
+	(wire
+		(pts
 			(xy 264.16 105.41) (xy 273.05 105.41)
 		)
 		(stroke
@@ -5345,6 +5361,16 @@
 			(type default)
 		)
 		(uuid "269c260f-7aeb-4ed3-a900-d54c833204fd")
+	)
+	(wire
+		(pts
+			(xy 274.32 31.75) (xy 274.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d88060-3348-4e7f-9106-1b13ae50fe38")
 	)
 	(wire
 		(pts
@@ -5648,6 +5674,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6b4edd-7284-4d9a-bb82-33b0596d1632")
+	)
+	(wire
+		(pts
 			(xy 254 247.65) (xy 254 250.19)
 		)
 		(stroke
@@ -5828,6 +5864,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 67.31) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e820909-4e21-4d1f-999a-c28205681c72")
+	)
+	(wire
+		(pts
 			(xy 261.62 149.86) (xy 267.97 149.86)
 		)
 		(stroke
@@ -5875,6 +5921,16 @@
 			(type default)
 		)
 		(uuid "5189593b-b150-4fc4-ad1d-ea87196a3cad")
+	)
+	(wire
+		(pts
+			(xy 274.32 86.36) (xy 337.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5287c8ef-d4f5-4cd8-8842-c4a3fd1e7d79")
 	)
 	(wire
 		(pts
@@ -6015,16 +6071,6 @@
 			(type default)
 		)
 		(uuid "5b94ab26-dbcf-400d-984f-9b653d23d9ad")
-	)
-	(wire
-		(pts
-			(xy 209.55 31.75) (xy 278.13 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b9cea28-ec1d-4536-9941-abb47e9cb8a5")
 	)
 	(wire
 		(pts
@@ -7068,7 +7114,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 140.97 81.28)
+			(xy 140.97 63.5) (xy 140.97 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7178,6 +7224,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 67.31) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71f4511-555c-44f5-b67b-1437eedf90ce")
+	)
+	(wire
+		(pts
 			(xy 240.03 189.23) (xy 240.03 184.15)
 		)
 		(stroke
@@ -7265,6 +7321,16 @@
 			(type default)
 		)
 		(uuid "bb5fa8ef-e8de-4fc1-9b26-0488c40f7a1b")
+	)
+	(wire
+		(pts
+			(xy 337.82 105.41) (xy 351.79 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcde8d7d-120e-4500-b622-f0ec5042afb4")
 	)
 	(wire
 		(pts
@@ -7828,6 +7894,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 67.31) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfa216b-4eb6-4bde-866e-368791231b44")
+	)
+	(wire
+		(pts
 			(xy 38.1 269.24) (xy 45.72 269.24)
 		)
 		(stroke
@@ -8028,7 +8104,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 105.41) (xy 351.79 105.41)
+			(xy 330.2 105.41) (xy 337.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9094,7 +9170,7 @@
 			)
 		)
 	)
-	(global_label "Wet_A_TC_Out_m"
+	(global_label "Wet_A_Out_m"
 		(shape output)
 		(at 209.55 31.75 180)
 		(fields_autoplaced yes)
@@ -9106,7 +9182,7 @@
 		)
 		(uuid "9cee7b4d-8d59-461f-a3ce-595ca397b52a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.204 31.75 0)
+			(at 194.4092 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10453,7 +10529,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 140.97 78.74 0)
+		(at 140.97 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10464,7 +10540,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f1c5f3b-30c3-4f58-bbd8-388167a63426")
 		(property "Reference" "#PWR051"
-			(at 140.97 82.55 0)
+			(at 140.97 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10475,7 +10551,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 140.97 73.66 0)
+			(at 140.97 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10485,7 +10561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 78.74 0)
+			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10496,7 +10572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 78.74 0)
+			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10507,7 +10583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 78.74 0)
+			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11176,6 +11252,85 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28eb7e9f-a71b-4b21-a341-9630566b6c6f")
+		(property "Reference" "C18"
+			(at 152.4 60.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 152.4 63.246 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 156.21 66.3448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1f50579-11d5-4fc3-b640-84f4826372eb")
+		)
+		(pin "2"
+			(uuid "020a91e6-afbe-4a27-9f1a-156594f13c2c")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -13588,6 +13743,84 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66f53758-3a65-4356-822a-6e7b8b9f269c")
+		(property "Reference" "#PWR0293"
+			(at 160.02 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9c92e6c-9a01-4e4c-9362-df436582184a")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "#PWR0293")
 					(unit 1)
 				)
 			)
@@ -20384,7 +20617,7 @@
 				)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "100pF"
 			(at 66.04 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
