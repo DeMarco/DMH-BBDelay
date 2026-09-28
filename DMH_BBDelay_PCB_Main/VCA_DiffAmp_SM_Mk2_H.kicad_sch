@@ -1876,6 +1876,18 @@
 		)
 	)
 	(circle
+		(center 222.25 22.86)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "23549b3c-f031-446f-b54e-db12de4af56c")
+	)
+	(circle
 		(center 212.09 63.5)
 		(radius 5.08)
 		(stroke
@@ -1943,6 +1955,16 @@
 		)
 		(uuid "7057ffb7-5cd8-46fe-a745-b72579d8c6d6")
 	)
+	(text "Add this to the submodule!!!"
+		(exclude_from_sim no)
+		(at 221.742 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b68cf95b-8ee6-4e13-aab1-a23b829cc129")
+	)
 	(text "Matched"
 		(exclude_from_sim no)
 		(at 165.1 32.004 0)
@@ -1976,10 +1998,22 @@
 		(uuid "4c0bf6e2-6a17-4334-9cf6-8b55597c81dd")
 	)
 	(junction
+		(at 233.68 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc82bbd-1a2b-4cc1-9a60-72902fcf0daa")
+	)
+	(junction
 		(at 177.8 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62500c8f-6a0e-46a3-9730-06dd13392086")
+	)
+	(junction
+		(at 209.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "660582c7-96c5-4ccb-9816-f065d2e62ca9")
 	)
 	(junction
 		(at 233.68 50.8)
@@ -2509,6 +2543,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 25.4) (xy 209.55 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f46c1db-a5d8-48a4-b491-0624e35f92c4")
+	)
+	(wire
+		(pts
 			(xy 190.5 88.9) (xy 190.5 91.44)
 		)
 		(stroke
@@ -2719,6 +2763,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 25.4) (xy 233.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ea2762-ef41-4ab2-b14e-53b37f62efe2")
+	)
+	(wire
+		(pts
 			(xy 233.68 38.1) (xy 233.68 50.8)
 		)
 		(stroke
@@ -2756,6 +2810,16 @@
 			(type default)
 		)
 		(uuid "e1121cea-d44b-40ff-abc8-3b3868dcc354")
+	)
+	(wire
+		(pts
+			(xy 226.06 25.4) (xy 233.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e276bff4-b179-4b47-9e42-d28ea7b2219d")
 	)
 	(wire
 		(pts
@@ -2806,6 +2870,16 @@
 			(type default)
 		)
 		(uuid "f781246d-8e0d-474e-98e7-54f7fef1b17c")
+	)
+	(wire
+		(pts
+			(xy 209.55 25.4) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd632313-9d57-4ad8-837f-ca9e2ee2cea6")
 	)
 	(wire
 		(pts
@@ -3732,6 +3806,99 @@
 				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3fe685da-0744-4e74-babb-9e374563e31b")
+		(property "Reference" "C121"
+			(at 222.25 18.796 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 222.25 21.336 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 226.06 24.4348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 222.25 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff13c46f-05ba-4f7e-9be0-f314c4858412")
+		)
+		(pin "2"
+			(uuid "3e3d1a84-8b23-4c46-ba05-bf8f458e758b")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
+					(reference "C122")
+					(unit 1)
+				)
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/3af47fcf-f8fc-4281-9243-bf2820b35fa1"
+					(reference "C121")
 					(unit 1)
 				)
 			)
