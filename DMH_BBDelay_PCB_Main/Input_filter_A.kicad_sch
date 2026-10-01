@@ -1311,16 +1311,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Add 100R and 1nF here to see if something improves"
-		(exclude_from_sim no)
-		(at 185.166 66.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2f83cb71-8413-46d6-af3e-39d0e7f42482")
-	)
 	(junction
 		(at 127 114.3)
 		(diameter 0)

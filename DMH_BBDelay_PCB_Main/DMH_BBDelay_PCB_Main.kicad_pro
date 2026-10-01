@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "C119-122",
+    "used_designators": "C119-122,R247-248,#PWR295-298,D29-32",
     "variants": []
   },
   "sheets": [
