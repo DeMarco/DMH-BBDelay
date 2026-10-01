@@ -1920,7 +1920,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "D:\\Engineering\\GitHub\\DMH-BBDelay\\Libraries\\SynthStuff\\SPICE_models\\TL072\\TL072.lib"
+		(property "Sim.Library" "${KICAD_USER_SPICE_DIR}\\TL072\\TL072.lib"
 			(at 218.44 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2477,7 +2477,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "D:\\Engineering\\GitHub\\DMH-BBDelay\\Libraries\\SynthStuff\\SPICE_models\\TL072\\TL072.lib"
+		(property "Sim.Library" "${KICAD_USER_SPICE_DIR}\\TL072\\TL072.lib"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)

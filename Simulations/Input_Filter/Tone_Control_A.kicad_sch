@@ -1772,10 +1772,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "R166")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "R164")
 					(unit 1)
@@ -1858,7 +1854,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "D:\\Engineering\\GitHub\\DMH-BBDelay\\Libraries\\SynthStuff\\SPICE_models\\TL072\\TL072.lib"
+		(property "Sim.Library" "${KICAD_USER_SPICE_DIR}\\TL072\\TL072.lib"
 			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1928,10 +1924,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "U18")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "U17")
 					(unit 1)
@@ -2012,10 +2004,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "R169")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "R162")
 					(unit 1)
@@ -2143,10 +2131,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "R2")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "R1")
 					(unit 1)
@@ -2225,10 +2209,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "#PWR0194")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "#PWR0192")
 					(unit 1)
@@ -2318,10 +2298,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "C53")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "C44")
 					(unit 1)
@@ -2406,7 +2382,7 @@
 				)
 			)
 		)
-		(property "Sim.Library" "D:\\Engineering\\GitHub\\DMH-BBDelay\\Libraries\\SynthStuff\\SPICE_models\\TL072\\TL072.lib"
+		(property "Sim.Library" "${KICAD_USER_SPICE_DIR}\\TL072\\TL072.lib"
 			(at 78.74 127 0)
 			(hide yes)
 			(show_name no)
@@ -2476,10 +2452,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "U18")
-					(unit 3)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "U17")
 					(unit 3)
@@ -2559,10 +2531,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "C50")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "C45")
 					(unit 1)
@@ -2643,10 +2611,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "R167")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "R165")
 					(unit 1)
@@ -2725,10 +2689,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "#PWR06")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "#PWR05")
 					(unit 1)
@@ -2811,10 +2771,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "C51")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "C47")
 					(unit 1)
@@ -2894,10 +2850,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "C49")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "C46")
 					(unit 1)
@@ -2980,10 +2932,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "C52")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "C48")
 					(unit 1)
@@ -3062,10 +3010,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "#PWR0111")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "#PWR0110")
 					(unit 1)
@@ -3146,10 +3090,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "R168")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "R163")
 					(unit 1)
@@ -3228,10 +3168,6 @@
 		)
 		(instances
 			(project "Input_Filter"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/583e9492-34ce-48dc-8b74-94655446f9ea"
-					(reference "#PWR0195")
-					(unit 1)
-				)
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/c4bfcf50-c1d9-4c95-894e-334dc4e2fd37"
 					(reference "#PWR0193")
 					(unit 1)
