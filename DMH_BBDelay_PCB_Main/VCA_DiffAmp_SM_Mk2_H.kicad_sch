@@ -1935,6 +1935,16 @@
 		)
 		(uuid "76986f02-d059-41a3-8156-e936b01101da")
 	)
+	(text "This config of the VCA inverts the signal phase!\nAdd it to the submodule"
+		(exclude_from_sim no)
+		(at 125.73 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1622e58c-fe69-45ba-bdce-5e9f4d03a27f")
+	)
 	(text "Matched"
 		(exclude_from_sim no)
 		(at 219.71 68.326 0)
@@ -2004,12 +2014,6 @@
 		(uuid "4cc82bbd-1a2b-4cc1-9a60-72902fcf0daa")
 	)
 	(junction
-		(at 177.8 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62500c8f-6a0e-46a3-9730-06dd13392086")
-	)
-	(junction
 		(at 209.55 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2026,6 +2030,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abe3548a-c140-4729-a5cb-63ad6637744d")
+	)
+	(junction
+		(at 177.8 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae834dbc-7b2b-45cc-8681-aaf24b2dbc52")
 	)
 	(junction
 		(at 139.7 88.9)
@@ -2058,6 +2068,12 @@
 		(uuid "ddb2600e-c554-4ad1-8a19-4e2c377eb46b")
 	)
 	(junction
+		(at 152.4 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e328e151-bf9e-4e83-a181-bbc32af60ddb")
+	)
+	(junction
 		(at 209.55 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2074,12 +2090,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb54153f-cc26-4192-bb6a-48c5aa9c184e")
-	)
-	(junction
-		(at 152.4 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f29aaa25-f0e0-4168-bd5f-7ffce13327c3")
 	)
 	(wire
 		(pts
@@ -2193,23 +2203,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 57.15) (xy 177.8 83.82)
+			(xy 177.8 44.45) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3273829f-b4bd-43da-b06d-e7fa3fe2b3de")
+	)
+	(wire
+		(pts
+			(xy 177.8 35.56) (xy 177.8 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37a664aa-8fa5-4f4e-ace6-a7282159a524")
-	)
-	(wire
-		(pts
-			(xy 177.8 57.15) (xy 193.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c7d27eb-0f53-45ba-9492-165ecada4631")
 	)
 	(wire
 		(pts
@@ -2230,16 +2240,6 @@
 			(type default)
 		)
 		(uuid "3e5ced32-8391-4f0f-809e-138895328754")
-	)
-	(wire
-		(pts
-			(xy 152.4 44.45) (xy 152.4 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43847c45-7ed2-44d1-9003-3ed3fe84d322")
 	)
 	(wire
 		(pts
@@ -2403,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 35.56) (xy 152.4 44.45)
+			(xy 152.4 35.56) (xy 152.4 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2443,16 +2443,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 35.56) (xy 177.8 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9225a4-37b9-4865-86ba-844edefe4b23")
-	)
-	(wire
-		(pts
 			(xy 209.55 53.34) (xy 209.55 59.69)
 		)
 		(stroke
@@ -2460,16 +2450,6 @@
 			(type default)
 		)
 		(uuid "8018e7fc-a8bf-47c8-8a59-e85acd47d351")
-	)
-	(wire
-		(pts
-			(xy 152.4 44.45) (xy 193.04 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82953834-4903-405d-a209-d2d5676586ee")
 	)
 	(wire
 		(pts
@@ -2633,6 +2613,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 57.15) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad03038-e105-4039-9562-a287ed19f43d")
+	)
+	(wire
+		(pts
 			(xy 215.9 139.7) (xy 215.9 142.24)
 		)
 		(stroke
@@ -2763,6 +2753,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 57.15) (xy 193.04 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d06476-eae9-428e-852d-5255fc063d06")
+	)
+	(wire
+		(pts
 			(xy 233.68 25.4) (xy 233.68 38.1)
 		)
 		(stroke
@@ -2800,6 +2800,16 @@
 			(type default)
 		)
 		(uuid "de184360-e68e-4a54-b31e-b6c9a23a65c4")
+	)
+	(wire
+		(pts
+			(xy 177.8 44.45) (xy 193.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe25d31-c797-4a37-846e-ac931f3200ba")
 	)
 	(wire
 		(pts
@@ -3073,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 133.35 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,7 +3259,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "14k"
 			(at 125.73 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +3676,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "1k"
 			(at 142.24 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4678,7 +4688,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "1k"
 			(at 193.04 93.9801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5317,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 196.85 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
