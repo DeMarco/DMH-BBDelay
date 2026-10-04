@@ -3101,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=0.180 f=1013 ac=1"
+		(property "Sim.Params" "dc=0 ampl=3 f=1013 ac=1"
 			(at 118.11 104.0101 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "D33-34,#PWR299-300,R249",
+    "used_designators": "R86,R106,R250-253,#PWR14,#PWR16,#PWR301-304,D17-18,U23,C123-126",
     "variants": []
   },
   "sheets": [
@@ -831,16 +831,8 @@
       "Input Filter B"
     ],
     [
-      "1f43dbde-384d-4d16-80c9-4cd2c0d36e7e",
-      "Compressor A"
-    ],
-    [
       "874c79b7-0db1-4866-bef8-b8a764ca2c07",
       "Compressor B"
-    ],
-    [
-      "e4d2becf-117e-497f-9f12-ceac6b489ccb",
-      "Expander A"
     ],
     [
       "dffddaae-8335-41ee-b77f-304e1c93bba1",

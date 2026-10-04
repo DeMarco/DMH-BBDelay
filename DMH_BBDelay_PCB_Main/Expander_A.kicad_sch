@@ -1639,6 +1639,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:ZPDxx"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZPDxx"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "500mW Zener Diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ZPDxx_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ZPDxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SynthStuff:SSI2162"
 			(pin_names
 				(hide yes)
@@ -2410,7 +2575,7 @@
 	)
 	(text "Try adding zener limiting here"
 		(exclude_from_sim no)
-		(at 229.616 133.858 0)
+		(at 239.268 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2433,6 +2598,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b0ed2a8-b6ed-4886-bd2a-e9707e4972d1")
+	)
+	(junction
+		(at 228.6 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "113acb03-f27a-4039-b213-dbce51b5a502")
 	)
 	(junction
 		(at 101.6 166.37)
@@ -2558,7 +2729,7 @@
 		(at 215.9 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dca2874e-69f1-4b96-91f1-8b2da30ad772")
+		(uuid "c6e4c522-dbbc-46a6-b73e-e43291621300")
 	)
 	(junction
 		(at 139.7 166.37)
@@ -2571,6 +2742,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f84bb940-f30f-4076-a503-6487f3c239aa")
+	)
+	(wire
+		(pts
+			(xy 226.06 127) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0042e52e-6763-41a7-af8a-5648ce2b365b")
 	)
 	(wire
 		(pts
@@ -2834,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 127) (xy 222.25 127)
+			(xy 215.9 127) (xy 218.44 127)
 		)
 		(stroke
 			(width 0)
@@ -2914,6 +3095,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 127) (xy 241.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f03b3b-c080-41d8-af47-b1c9557b74b8")
+	)
+	(wire
+		(pts
 			(xy 57.15 137.16) (xy 57.15 139.7)
 		)
 		(stroke
@@ -2971,6 +3162,16 @@
 			(type default)
 		)
 		(uuid "57a53020-070e-4073-8fe5-53f81f5f0477")
+	)
+	(wire
+		(pts
+			(xy 228.6 137.16) (xy 228.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61aa9917-3fe1-412e-b9e5-2fa18ca690a0")
 	)
 	(wire
 		(pts
@@ -3141,6 +3342,26 @@
 			(type default)
 		)
 		(uuid "8b92d450-af33-4c66-a2fd-f5b8140d1401")
+	)
+	(wire
+		(pts
+			(xy 228.6 147.32) (xy 228.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9dceaa-f890-466d-b6b9-a23bd9fa28c1")
+	)
+	(wire
+		(pts
+			(xy 228.6 127) (xy 228.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8daef273-fdd0-4ed0-bde9-0c501f2fb9c9")
 	)
 	(wire
 		(pts
@@ -3615,7 +3836,7 @@
 	)
 	(hierarchical_label "Out"
 		(shape output)
-		(at 222.25 127 0)
+		(at 241.3 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4721,6 +4942,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 228.6 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30a9e1b0-98e8-4822-b705-71366c8ed9ad")
+		(property "Reference" "#PWR0301"
+			(at 228.6 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "091a6797-8f19-430f-afec-74e6dc5c459e")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/e4d2becf-117e-497f-9f12-ceac6b489ccb"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 57.15 120.65 0)
 		(mirror x)
@@ -5157,6 +5456,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:ZPDxx")
+		(at 228.6 143.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53eb65d2-594b-47b4-80bf-d9b1156d0fd7")
+		(property "Reference" "D18"
+			(at 231.14 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZPD4v7"
+			(at 231.14 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 224.155 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+			(at 228.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mW Zener Diode, DO-35"
+			(at 228.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03163916-8941-466c-9991-ac3964b24d9c")
+		)
+		(pin "2"
+			(uuid "c921607a-bdc5-4846-b092-a3f7739fc7cc")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/e4d2becf-117e-497f-9f12-ceac6b489ccb"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 43.18 0)
 		(mirror y)
@@ -5439,6 +5820,86 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/e4d2becf-117e-497f-9f12-ceac6b489ccb"
 					(reference "RV13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 222.25 127 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61a7d956-0f31-4a18-b905-6635d2178f42")
+		(property "Reference" "R250"
+			(at 222.25 121.666 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 222.25 123.952 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 222.504 128.016 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 222.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f512340c-2784-4ba5-b18a-787c0906d919")
+		)
+		(pin "1"
+			(uuid "a55560a9-0eb7-4bbd-9592-4ceef3a71a87")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/e4d2becf-117e-497f-9f12-ceac6b489ccb"
+					(reference "R250")
 					(unit 1)
 				)
 			)
@@ -6327,6 +6788,88 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/e4d2becf-117e-497f-9f12-ceac6b489ccb"
 					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ZPDxx")
+		(at 228.6 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad05a12d-8fab-480f-a582-4b1f74ce63ad")
+		(property "Reference" "D17"
+			(at 231.14 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ZPD4v7"
+			(at 231.14 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 233.045 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1"
+			(at 228.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mW Zener Diode, DO-35"
+			(at 228.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3822b358-0c06-4f91-ab2a-11124ffd37a7")
+		)
+		(pin "2"
+			(uuid "f9cc591a-d730-4b13-a9b5-4c4ea0ee1d84")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/e4d2becf-117e-497f-9f12-ceac6b489ccb"
+					(reference "D17")
 					(unit 1)
 				)
 			)

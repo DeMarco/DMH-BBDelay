@@ -2097,7 +2097,7 @@
 				)
 			)
 		)
-		(property "Value" "120k"
+		(property "Value" "200k"
 			(at 152.4 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +2639,7 @@
 		(at 88.9 96.52 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -2719,7 +2719,7 @@
 		(mirror x)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)

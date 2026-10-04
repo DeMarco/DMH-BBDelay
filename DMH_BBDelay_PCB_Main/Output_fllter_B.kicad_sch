@@ -878,48 +878,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 34.798 83.82)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "4c7c4031-9b8e-45b0-aaf2-f6b508895c42")
-	)
-	(text "This 49.9k resistor seems to have no effect,\nsince this input comes from a OpAmp output directly."
-		(exclude_from_sim no)
-		(at 42.672 102.108 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "50b3c83b-f1da-4a44-b53d-299a26f8f5a9")
-	)
-	(text "Used 47k"
-		(exclude_from_sim no)
-		(at 24.13 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "61cafdda-62f5-405a-b4c1-355888c6c681")
-	)
-	(text "This filter seems to be rolling off the signal at 1kHz (C5) already.\nIt should have a -3dB attenuation as of 5kHz only.\nTry simulating it to see how it can be improved."
-		(exclude_from_sim no)
-		(at 166.878 51.308 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "befb43d7-300b-4f6f-b716-a31b18783821")
-	)
 	(junction
 		(at 63.5 76.2)
 		(diameter 0)
@@ -955,12 +913,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "799f37b8-f1dd-41b5-a164-82d385fcd177")
-	)
-	(junction
-		(at 38.1 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98027b63-6656-4da2-a372-801d658d87ee")
 	)
 	(junction
 		(at 101.6 76.2)
@@ -1040,16 +992,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 87.63) (xy 38.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50b87d3b-e16b-49a8-8303-f228cc54ab37")
-	)
-	(wire
-		(pts
 			(xy 99.06 76.2) (xy 101.6 76.2)
 		)
 		(stroke
@@ -1090,17 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 76.2) (xy 38.1 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80bf803f-0fe8-411a-913f-3ccd794da74a")
-	)
-	(wire
-		(pts
-			(xy 38.1 76.2) (xy 40.64 76.2)
+			(xy 25.4 76.2) (xy 40.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1207,16 +1139,6 @@
 			(type default)
 		)
 		(uuid "c298909d-d4c2-4c5f-b6d8-115da080303a")
-	)
-	(wire
-		(pts
-			(xy 25.4 76.2) (xy 38.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c63f2122-d5f0-4e9a-90d8-9b5bee7be65e")
 	)
 	(wire
 		(pts
@@ -1997,84 +1919,6 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/b220cd30-3d79-47df-ac4c-a5efb41766f0"
 					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "415fc4bf-a52b-480e-a08a-2fce6c964c7d")
-		(property "Reference" "#PWR0290"
-			(at 38.1 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13b44148-19d7-4888-8ae0-382b8cdf71c7")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/b220cd30-3d79-47df-ac4c-a5efb41766f0"
-					(reference "#PWR0290")
 					(unit 1)
 				)
 			)
@@ -2981,88 +2825,6 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/b220cd30-3d79-47df-ac4c-a5efb41766f0"
 					(reference "#PWR0235")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 83.82 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f45089cc-4d72-4815-bac0-74ff2b41a748")
-		(property "Reference" "R242"
-			(at 35.56 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "49k9"
-			(at 35.56 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 39.116 83.566 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "de77b9a0-7188-4127-b73e-ba2c24fb7125")
-		)
-		(pin "1"
-			(uuid "9dfaf843-0b7d-4d90-beb8-9f97a94acbc4")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/b220cd30-3d79-47df-ac4c-a5efb41766f0"
-					(reference "R242")
 					(unit 1)
 				)
 			)

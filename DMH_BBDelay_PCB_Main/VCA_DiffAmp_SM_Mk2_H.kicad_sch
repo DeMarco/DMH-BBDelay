@@ -2989,7 +2989,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 222.25 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 133.35 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3259,7 +3259,7 @@
 				)
 			)
 		)
-		(property "Value" "14k"
+		(property "Value" "100k"
 			(at 125.73 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +3676,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100R"
 			(at 142.24 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4688,7 +4688,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100R"
 			(at 193.04 93.9801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5317,7 +5317,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 196.85 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5412,7 +5412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 212.09 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
