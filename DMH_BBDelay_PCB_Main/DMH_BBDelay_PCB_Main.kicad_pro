@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "R86,R106,R250-253,#PWR14,#PWR16,#PWR301-304,D17-18,U23,C123-126",
+    "used_designators": "RV13",
     "variants": []
   },
   "sheets": [
