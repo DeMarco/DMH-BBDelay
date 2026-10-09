@@ -4124,7 +4124,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 63.5)
+		(at 127 101.6)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4140,7 +4140,7 @@
 		)
 		(uuid "d7d04bde-8027-4a64-bc5f-eff78ea7dc9f")
 		(property "Sheetname" "LEDs"
-			(at 165.1 62.7884 0)
+			(at 127 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4151,7 +4151,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 165.1 89.4846 0)
+			(at 127 127.5846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -879,12 +879,6 @@
 		)
 	)
 	(junction
-		(at 101.6 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19391674-cca6-464a-9069-01052e1d664b")
-	)
-	(junction
 		(at 114.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -913,12 +907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cec661df-052e-4203-ae59-6dd4cdc30bce")
-	)
-	(junction
-		(at 76.2 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe76c4a7-889c-496e-ab5d-cc11643e3676")
 	)
 	(wire
 		(pts
@@ -952,16 +940,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 87.63) (xy 76.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17689fb6-0ba3-4a63-904b-cecd0d2a92c3")
-	)
-	(wire
-		(pts
 			(xy 149.86 76.2) (xy 149.86 83.82)
 		)
 		(stroke
@@ -969,16 +947,6 @@
 			(type default)
 		)
 		(uuid "1cadc908-17af-4f99-a199-dd8a144e3fe8")
-	)
-	(wire
-		(pts
-			(xy 76.2 76.2) (xy 76.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce7aaf8-2414-499c-b9c3-15dda3dc9087")
 	)
 	(wire
 		(pts
@@ -999,16 +967,6 @@
 			(type default)
 		)
 		(uuid "20f749fd-e037-47df-af7f-ef3b1117a1ed")
-	)
-	(wire
-		(pts
-			(xy 101.6 87.63) (xy 101.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30185657-5b3f-42df-82c3-fb69bb9f0877")
 	)
 	(wire
 		(pts
@@ -1112,26 +1070,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f87d881-f4ad-4985-a48b-f8321d21121e")
-	)
-	(wire
-		(pts
-			(xy 76.2 76.2) (xy 88.9 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fc25a21-6e8c-47e1-9c45-da587163b9ca")
-	)
-	(wire
-		(pts
 			(xy 63.5 76.2) (xy 66.04 76.2)
 		)
 		(stroke
@@ -1142,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 76.2) (xy 76.2 76.2)
+			(xy 73.66 76.2) (xy 88.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1192,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 114.3 76.2)
+			(xy 99.06 76.2) (xy 114.3 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1242,16 +1180,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 76.2) (xy 101.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d08255e8-c710-4583-aef3-5ecea3d6cfc9")
-	)
-	(wire
-		(pts
 			(xy 114.3 66.04) (xy 135.89 66.04)
 		)
 		(stroke
@@ -1281,6 +1209,95 @@
 			(justify right)
 		)
 		(uuid "b23fa631-2eea-45ec-b0c3-c468e93b5bf4")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cf96c8e-307c-4b04-bd22-8d8b4e77cb12")
+		(property "Reference" "C56"
+			(at 44.45 69.596 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF Film"
+			(at 44.45 72.136 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+			(at 48.26 75.2348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 44.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 44.45 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c24680d1-7d30-475d-a270-3fee4631b7a7")
+		)
+		(pin "2"
+			(uuid "77e108ff-8a1c-4fe4-b07d-a0446f02a1c2")
+		)
+		(instances
+			(project "DMH_BBDelay_PCB_Main"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1609,85 +1626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 101.6 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3fa7e3df-7127-4878-a4c1-92cc2948c66d")
-		(property "Reference" "C71"
-			(at 95.25 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470pF"
-			(at 95.25 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 100.6348 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8aa9b6a1-c74a-49c2-a0b5-1d28c1b14e8c")
-		)
-		(pin "2"
-			(uuid "cfc21e73-a562-4562-a484-ff614deec53a")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
-					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 139.7 83.82 0)
 		(mirror x)
@@ -1824,7 +1762,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1.5nF"
 			(at 107.95 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1877,243 +1815,6 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
 					(reference "C70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 44.45 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74b98b83-79de-471a-9faa-2e011cb3effa")
-		(property "Reference" "C116"
-			(at 44.45 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 44.45 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 48.26 75.2348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c0c115b-3135-4995-b89d-4ba12dfb7bbe")
-		)
-		(pin "2"
-			(uuid "fc67f3bc-f1b8-4977-b644-3317f47fb8ae")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
-					(reference "C116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eda6710-e5e5-40ef-a42f-09ff9d6a9d84")
-		(property "Reference" "#PWR0238"
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e1ded23-7bfd-4e74-b2f6-e195e963ebce")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
-					(reference "#PWR0238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 76.2 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87c266b6-154c-4228-ab5b-09ff9ae450c5")
-		(property "Reference" "C72"
-			(at 69.85 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220p"
-			(at 69.85 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 75.2348 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 76.2 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6da864dd-1862-4a1d-ac44-f9dd8725d759")
-		)
-		(pin "2"
-			(uuid "898b8309-bddd-4659-b8fd-eb6e6d5f597c")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
-					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -2354,84 +2055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a049ae7a-fc03-44c0-8043-ba73bb0ee50d")
-		(property "Reference" "#PWR0237"
-			(at 101.6 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "350425c4-8f10-49f6-91eb-cda67f4b0139")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
-					(reference "#PWR0237")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 139.7 66.04 90)
 		(mirror x)
@@ -2612,7 +2235,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "43k"
 			(at 69.85 73.152 90)
 			(show_name no)
 			(do_not_autoplace no)

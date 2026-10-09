@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "RV13",
+    "used_designators": "RV13,RV28,R160,R250,U17,D7-14,D35-36,#PWR66-68,#PWR111-112,#PWR128-129,#PWR301-302,C56,C58-59,C63,JP6-9",
     "variants": []
   },
   "sheets": [
@@ -829,14 +829,6 @@
     [
       "9104bdbd-0802-4c59-bf61-2977ca5bff15",
       "Input Filter B"
-    ],
-    [
-      "874c79b7-0db1-4866-bef8-b8a764ca2c07",
-      "Compressor B"
-    ],
-    [
-      "dffddaae-8335-41ee-b77f-304e1c93bba1",
-      "Expander B"
     ],
     [
       "0bc6b9e8-2a23-483c-9bc6-99b99ebe2845",

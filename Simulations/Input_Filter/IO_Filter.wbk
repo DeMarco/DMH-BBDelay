@@ -24,12 +24,12 @@
         {
           "color": "rgb(228, 26, 28)",
           "cursor1": {
-            "position": 5029.126239917871,
+            "position": 4824.327865826312,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
           "cursor2": {
-            "position": 268.269579527973,
+            "position": 62.70429615031001,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
@@ -64,7 +64,7 @@
         {
           "color": "rgb(228, 26, 28)",
           "cursor1": {
-            "position": 4192.8448521127,
+            "position": 5019.3490853234525,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
