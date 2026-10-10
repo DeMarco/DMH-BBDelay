@@ -1519,6 +1519,12 @@
 		(uuid "326f80ad-168f-4470-bb81-4e8169d75515")
 	)
 	(junction
+		(at 177.8 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c7dffb6-db64-46b6-9aac-7ad86a3218b3")
+	)
+	(junction
 		(at 50.8 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1579,6 +1585,12 @@
 		(uuid "c6d94fe5-9770-46e9-be8d-1b3ce6c72ba6")
 	)
 	(junction
+		(at 190.5 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1383448-8311-4a71-8db0-4beeca723add")
+	)
+	(junction
 		(at 76.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1613,12 +1625,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f68c1627-ead3-4438-bda0-da6fb391ca47")
-	)
-	(junction
-		(at 177.8 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd7817fc-5f85-4237-aaef-21c6dbda39b2")
 	)
 	(wire
 		(pts
@@ -1749,6 +1755,16 @@
 			(type default)
 		)
 		(uuid "2aa1edb8-1ea4-4730-832c-21da33911b09")
+	)
+	(wire
+		(pts
+			(xy 190.5 92.71) (xy 190.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b151985-9fc9-49fd-8d82-d55c01f488fb")
 	)
 	(wire
 		(pts
@@ -1942,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 78.74) (xy 190.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7606cf0f-e020-4544-aa3e-2698ed0df213")
+	)
+	(wire
+		(pts
 			(xy 127 95.25) (xy 139.7 95.25)
 		)
 		(stroke
@@ -2112,6 +2138,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59e6af3-bbef-4c3a-8c5a-c6c9f1a272b2")
+	)
+	(wire
+		(pts
 			(xy 152.4 58.42) (xy 161.29 58.42)
 		)
 		(stroke
@@ -2119,6 +2155,16 @@
 			(type default)
 		)
 		(uuid "b8b30882-d456-4e0c-b189-6c165f76bb12")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf5bcec-d002-40a9-a416-5e4b174b7cbb")
 	)
 	(wire
 		(pts
@@ -2152,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 78.74) (xy 190.5 78.74)
+			(xy 177.8 78.74) (xy 180.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2333,7 @@
 	)
 	(hierarchical_label "Out"
 		(shape output)
-		(at 190.5 78.74 0)
+		(at 203.2 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3694,6 +3740,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 190.5 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a04eea70-7b1e-42f7-bf42-53bf9be15182")
+		(property "Reference" "#PWR0185"
+			(at 190.5 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "362e2af8-53bb-42a6-999d-9d76e1a7ed4e")
+		)
+		(instances
+			(project "Input_Filter"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/9a629b6c-7e26-4d6d-9bcb-931f7686be72"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 165.1 107.95 0)
 		(mirror x)
@@ -4450,6 +4574,175 @@
 			(project "Input_Filter"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/9a629b6c-7e26-4d6d-9bcb-931f7686be72"
 					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 184.15 78.74 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfd8af65-e4b7-46e8-8ee7-8cfadfb8f1bf")
+		(property "Reference" "R179"
+			(at 184.15 73.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 184.15 75.692 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 184.404 79.756 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 184.15 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8c34506f-9ca1-4a32-ac8a-c6fd73aee22e")
+		)
+		(pin "1"
+			(uuid "67b60d69-9926-4691-a77f-b85bd076da00")
+		)
+		(instances
+			(project "Input_Filter"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/9a629b6c-7e26-4d6d-9bcb-931f7686be72"
+					(reference "R179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 190.5 88.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0b8e984-0e9a-44cc-ab30-21b8f2a15149")
+		(property "Reference" "C61"
+			(at 185.42 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 185.42 87.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 189.5348 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 190.5 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3d3f76d-d89a-4996-a16c-8f5680810468")
+		)
+		(pin "2"
+			(uuid "b11a7a7e-f830-4177-8412-bda14ccd476d")
+		)
+		(instances
+			(project "Input_Filter"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/9a629b6c-7e26-4d6d-9bcb-931f7686be72"
+					(reference "C61")
 					(unit 1)
 				)
 			)
