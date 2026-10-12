@@ -4944,6 +4944,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 177.8 130.81)
+		(radius 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "03b5d6b1-e167-4b6a-b7ee-6f38e4d2fc03")
+	)
 	(rectangle
 		(start 273.05 130.81)
 		(end 336.55 200.66)
@@ -5027,6 +5039,16 @@
 			(type none)
 		)
 		(uuid "ecfd5a20-5375-422b-9c8b-ef6e76ad5bd8")
+	)
+	(text "Probably better to\nremove or decrease"
+		(exclude_from_sim no)
+		(at 195.326 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18ec92f7-b9ef-4c35-ab61-a0b46bad0baa")
 	)
 	(junction
 		(at 241.3 247.65)
