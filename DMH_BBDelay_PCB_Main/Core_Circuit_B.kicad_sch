@@ -6572,18 +6572,6 @@
 		)
 		(uuid "55fb5c21-6661-426f-8be8-7010fbffd828")
 	)
-	(circle
-		(center 177.8 129.54)
-		(radius 8.4166)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6f3a6f1a-4a5e-4065-9875-47627ca682db")
-	)
 	(rectangle
 		(start 303.53 34.29)
 		(end 353.06 72.39)
@@ -6632,15 +6620,11 @@
 		)
 		(uuid "e6574cb8-9e5c-4636-9615-29b9705daeb1")
 	)
-	(text "Probably better to\nremove or change"
-		(exclude_from_sim no)
-		(at 182.88 140.462 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "92cd0156-debc-4466-a9c0-822b7fbf73f7")
+	(junction
+		(at 168.91 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06025634-9aca-43a7-8c7d-d6bcd12b1947")
 	)
 	(junction
 		(at 349.25 215.9)
@@ -6841,12 +6825,6 @@
 		(uuid "801067fe-e9f4-41ce-9f15-1319f81f2601")
 	)
 	(junction
-		(at 139.7 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "814020d3-96cc-487d-9ec6-8462a382762e")
-	)
-	(junction
 		(at 91.44 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6887,18 +6865,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c6b25ca-bda7-4332-b16f-5122ae2909df")
-	)
-	(junction
-		(at 160.02 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e157a86-ce79-48b3-903f-51965b861cf2")
-	)
-	(junction
-		(at 163.83 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e28581c-ad9d-42fa-a94b-2cf21e3bb831")
 	)
 	(junction
 		(at 63.5 171.45)
@@ -7021,16 +6987,16 @@
 		(uuid "dbe5eacc-6335-451b-adc1-d845ff1234ce")
 	)
 	(junction
-		(at 177.8 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd94288a-4a8c-4a88-a599-14a67944421c")
-	)
-	(junction
 		(at 232.41 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e135c031-4550-4764-8b2c-59dd40042494")
+	)
+	(junction
+		(at 139.7 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edec1b4a-4dcf-4549-a60e-8837f264c6aa")
 	)
 	(junction
 		(at 55.88 88.9)
@@ -7315,16 +7281,6 @@
 			(type default)
 		)
 		(uuid "09dcce42-3a2c-4a44-a316-63229e02831e")
-	)
-	(wire
-		(pts
-			(xy 163.83 63.5) (xy 160.02 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a77f1c2-b701-48f0-8407-0745deac28d0")
 	)
 	(wire
 		(pts
@@ -7888,16 +7844,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 83.82) (xy 177.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27dcda60-fa24-4bc5-8f7b-878c9693d48e")
-	)
-	(wire
-		(pts
 			(xy 118.11 91.44) (xy 127 91.44)
 		)
 		(stroke
@@ -7965,16 +7911,6 @@
 			(type default)
 		)
 		(uuid "2c255808-b21a-4a85-87c8-94e14d1b24c9")
-	)
-	(wire
-		(pts
-			(xy 172.72 81.28) (xy 173.99 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c336af2-b16a-4913-a5de-3152095da726")
 	)
 	(wire
 		(pts
@@ -8325,16 +8261,6 @@
 			(type default)
 		)
 		(uuid "3f976b16-0af9-427d-a861-77098d33feb5")
-	)
-	(wire
-		(pts
-			(xy 207.01 107.95) (xy 168.91 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4005d615-4c7c-4aa4-aa45-c73b7b2288dc")
 	)
 	(wire
 		(pts
@@ -8948,16 +8874,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 163.83 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f403740-7e9b-4d97-b788-10d95c40972d")
-	)
-	(wire
-		(pts
 			(xy 76.2 91.44) (xy 73.66 91.44)
 		)
 		(stroke
@@ -9038,7 +8954,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 165.1 81.28)
+			(xy 161.29 81.28) (xy 173.99 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9358,16 +9274,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 163.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "795b4e86-391b-4e7e-be3d-3c43f52cd8d1")
-	)
-	(wire
-		(pts
 			(xy 350.52 57.15) (xy 355.6 57.15)
 		)
 		(stroke
@@ -9485,16 +9391,6 @@
 			(type default)
 		)
 		(uuid "815671cc-714c-49d1-be8e-521e9105c076")
-	)
-	(wire
-		(pts
-			(xy 139.7 111.76) (xy 177.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f69913-1ea9-4d27-98ae-23a9ed9ade35")
 	)
 	(wire
 		(pts
@@ -9628,16 +9524,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 71.12) (xy 163.83 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89dfcc79-a1a5-47da-94c4-6edc0967aea4")
-	)
-	(wire
-		(pts
 			(xy 228.6 233.68) (xy 228.6 234.95)
 		)
 		(stroke
@@ -9668,7 +9554,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 120.65) (xy 212.09 111.76)
+			(xy 212.09 107.95) (xy 212.09 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10028,6 +9914,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 83.82) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a41874d0-a330-4ed4-afeb-4b6062e51ace")
+	)
+	(wire
+		(pts
 			(xy 63.5 171.45) (xy 63.5 173.99)
 		)
 		(stroke
@@ -10158,6 +10054,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 107.95) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9c6bd5-f0c0-4d00-8267-6cf272dc652c")
+	)
+	(wire
+		(pts
 			(xy 173.99 129.54) (xy 173.99 130.81)
 		)
 		(stroke
@@ -10235,16 +10141,6 @@
 			(type default)
 		)
 		(uuid "af8d5f75-da43-48fa-ba16-ce9947a26e53")
-	)
-	(wire
-		(pts
-			(xy 207.01 91.44) (xy 207.01 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02905b7-c0a6-4db2-bc9e-1d6cf99214ea")
 	)
 	(wire
 		(pts
@@ -10365,6 +10261,16 @@
 			(type default)
 		)
 		(uuid "b4e1e69c-5e65-4f9c-ac39-487158a9eb77")
+	)
+	(wire
+		(pts
+			(xy 207.01 91.44) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b512c883-f923-4951-a8c0-140d421bf25d")
 	)
 	(wire
 		(pts
@@ -10818,16 +10724,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 177.8 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb7e773-188f-4761-8c07-a0cfc75b2247")
-	)
-	(wire
-		(pts
 			(xy 15.24 20.32) (xy 20.32 20.32)
 		)
 		(stroke
@@ -11218,6 +11114,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 83.82) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46ebb6d-f3fa-44ae-bfa6-362e5120d49c")
+	)
+	(wire
+		(pts
 			(xy 71.12 17.78) (xy 71.12 22.86)
 		)
 		(stroke
@@ -11235,16 +11141,6 @@
 			(type default)
 		)
 		(uuid "e563bcb4-9b61-4a04-842d-c2d4ccbd5604")
-	)
-	(wire
-		(pts
-			(xy 177.8 111.76) (xy 212.09 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ca9f61-1706-48f2-a036-b915907550ad")
 	)
 	(wire
 		(pts
@@ -11375,6 +11271,16 @@
 			(type default)
 		)
 		(uuid "ec3dc55d-7611-456a-b333-a7548d625402")
+	)
+	(wire
+		(pts
+			(xy 207.01 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec75c095-cdbd-47aa-ad4a-19a27ce27a98")
 	)
 	(wire
 		(pts
@@ -19445,87 +19351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 163.83 74.93 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "612e53d0-a70a-4e51-b6ef-6fee7af03e01")
-		(property "Reference" "R199"
-			(at 166.37 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47k"
-			(at 166.37 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 162.814 74.676 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 163.83 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "16716a24-a041-494d-8397-448177264b80")
-		)
-		(pin "1"
-			(uuid "df36adc4-bef9-4efc-a154-cb3f7db30e02")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
-					(reference "R199")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-12V")
 		(at 190.5 130.81 180)
 		(unit 1)
@@ -22316,7 +22141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "220pF"
 			(at 177.8 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25726,7 +25551,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "90k9"
+		(property "Value" "100k"
 			(at 193.04 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26133,85 +25958,6 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "J37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 168.91 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d72dc917-2bb7-47a4-84dd-3a2694fd3f98")
-		(property "Reference" "R198"
-			(at 168.91 86.614 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k3"
-			(at 168.91 84.328 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 169.164 80.264 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 168.91 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5eb63de7-96a7-468a-a136-712f72d08b5a")
-		)
-		(pin "1"
-			(uuid "1ea77cac-2bb7-463f-a3df-b439cc14a570")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
-					(reference "R198")
 					(unit 1)
 				)
 			)
