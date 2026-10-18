@@ -5040,6 +5040,18 @@
 		)
 		(uuid "ecfd5a20-5375-422b-9c8b-ef6e76ad5bd8")
 	)
+	(circle
+		(center 193.04 134.62)
+		(radius 6.3956)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f2a0d9a7-5f1b-4dcb-bc86-16b4799095d5")
+	)
 	(text "Try increasing this so that\nS&H samples the plateau instead\nof the peak, and reduce the DC\noffset of U2C pin 8"
 		(exclude_from_sim no)
 		(at 272.034 121.158 0)
