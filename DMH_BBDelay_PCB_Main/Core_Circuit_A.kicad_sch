@@ -5188,6 +5188,18 @@
 		)
 	)
 	(rectangle
+		(start 119.38 179.07)
+		(end 142.24 187.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "05bf07b3-a722-4052-aef9-b1c4a3eac5ff")
+	)
+	(rectangle
 		(start 273.05 130.81)
 		(end 336.55 200.66)
 		(stroke
@@ -5280,6 +5292,36 @@
 			)
 		)
 		(uuid "340fd2bd-c6c1-42b2-b22f-48053234e4ac")
+	)
+	(text "Adjust these to account for the multiple V3205 in series"
+		(exclude_from_sim no)
+		(at 165.1 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d964d3a8-3e1f-4390-bfae-e041fecbc2d8")
+	)
+	(text_box "Idea in case phaser mode doesn't sound good due to the 5kHz filtering:\n\nUse extra CD4053 per channel to bypass the Input and Output filters.\nThe 3rd switch in the CD4053 can be used to add a resistor to -12V to add the 2.5V offset needed for the V3205.\nCommand the CD4053 with a 3-way DPDT, combining the range cap selection."
+		(exclude_from_sim no)
+		(at 12.7 114.3 0)
+		(size 52.07 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b038c86d-1af2-4528-8090-ff7f18494da3")
 	)
 	(junction
 		(at 292.1 69.85)
