@@ -5283,18 +5283,6 @@
 		)
 		(uuid "ecfd5a20-5375-422b-9c8b-ef6e76ad5bd8")
 	)
-	(circle
-		(center 233.68 125.73)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "fbc81754-785a-49cd-9167-f346cfee461b")
-	)
 	(text "V3205 decoupling caps"
 		(exclude_from_sim no)
 		(at 196.85 270.51 0)
@@ -5304,16 +5292,6 @@
 			)
 		)
 		(uuid "340fd2bd-c6c1-42b2-b22f-48053234e4ac")
-	)
-	(text "Bring back to 6k2 to avoid\nclock noise without filter"
-		(exclude_from_sim no)
-		(at 252.73 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4d450379-d91a-40ad-84e3-f9c76e919a88")
 	)
 	(text "Adjust these to account for the multiple V3205 in series"
 		(exclude_from_sim no)
@@ -16659,7 +16637,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "6k2"
 			(at 233.68 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)

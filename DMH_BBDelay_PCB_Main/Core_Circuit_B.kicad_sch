@@ -6839,18 +6839,6 @@
 		)
 		(uuid "a09fd263-e2fa-4a77-a1ff-7901d34575b8")
 	)
-	(circle
-		(center 238.76 124.46)
-		(radius 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "a5712f22-eb86-422e-8715-8bc46a4fdd2a")
-	)
 	(rectangle
 		(start 166.37 218.44)
 		(end 208.28 238.76)
@@ -18606,7 +18594,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "6k2"
 			(at 238.76 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
