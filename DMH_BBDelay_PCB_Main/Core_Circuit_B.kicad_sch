@@ -7138,12 +7138,6 @@
 		(uuid "873a2eec-a487-47db-a6a8-2ccc418d08a9")
 	)
 	(junction
-		(at 119.38 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88916a07-a1a2-4a93-9da5-69c0014981da")
-	)
-	(junction
 		(at 292.1 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8229,16 +8223,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 119.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2462caed-c284-483a-bb1f-36e1403fa900")
-	)
-	(wire
-		(pts
 			(xy 388.62 154.94) (xy 388.62 162.56)
 		)
 		(stroke
@@ -8356,16 +8340,6 @@
 			(type default)
 		)
 		(uuid "27b9795d-ec7a-43cc-b7ae-008b658e63c7")
-	)
-	(wire
-		(pts
-			(xy 116.84 91.44) (xy 119.38 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28595519-e736-4b42-9a55-382a7b7a13f4")
 	)
 	(wire
 		(pts
@@ -11889,16 +11863,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 119.38 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfedfea9-ccce-4b16-b3e9-fd92ea8051c8")
-	)
-	(wire
-		(pts
 			(xy 349.25 241.3) (xy 349.25 242.57)
 		)
 		(stroke
@@ -12009,7 +11973,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 109.22 91.44)
+			(xy 106.68 91.44) (xy 119.38 91.44)
 		)
 		(stroke
 			(width 0)
@@ -21271,95 +21235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 119.38 96.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65ec51ff-978e-4bb4-a166-5f81722210da")
-		(property "Reference" "C67"
-			(at 114.3 98.044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 114.3 95.504 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 118.4148 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" ""
-			(at 119.38 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a81d5c09-51f8-488a-a3a4-9434fdc64731")
-		)
-		(pin "2"
-			(uuid "9edea010-bd9b-445f-8a32-84fbf5643625")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
-					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 400.05 229.87 0)
 		(unit 1)
@@ -22151,84 +22026,6 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "#PWR0238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "741c1ffb-6c21-4b78-8e7d-4f8e53f049ee")
-		(property "Reference" "#PWR0218"
-			(at 119.38 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a36952b-7fcc-4d98-be43-58e3929d49f4")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
-					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -24097,86 +23894,6 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
 					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 113.03 91.44 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99794632-ec6d-48ab-9c19-e7774a97ccc5")
-		(property "Reference" "R197"
-			(at 113.03 86.106 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 113.03 88.392 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 113.284 92.456 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 113.03 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1c11a70c-1b2d-435f-88fa-78e0594b9220")
-		)
-		(pin "1"
-			(uuid "566d6a81-a8f3-4d59-91de-b810b8954be3")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
-					(reference "R197")
 					(unit 1)
 				)
 			)
