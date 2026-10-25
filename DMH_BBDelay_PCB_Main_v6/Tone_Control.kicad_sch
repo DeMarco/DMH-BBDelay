@@ -963,7 +963,7 @@
 			(uuid "49ae07b6-3add-40d8-b880-1bd482771efa")
 		)
 		(instances
-			(project "DMH_BBDelay_PCB_Main"
+			(project "DMH_BBDelay_PCB_Main_v6"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f521875d-e2e4-48cf-a233-31167ca3a37c"
 					(reference "U17")
 					(unit 1)
@@ -1043,7 +1043,7 @@
 			(uuid "aa5c1c35-a58c-40fa-b7bc-e70ca16dbc86")
 		)
 		(instances
-			(project "DMH_BBDelay_PCB_Main"
+			(project "DMH_BBDelay_PCB_Main_v6"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f521875d-e2e4-48cf-a233-31167ca3a37c"
 					(reference "R163")
 					(unit 1)
@@ -1141,7 +1141,7 @@
 			(uuid "49ae07b6-3add-40d8-b880-1bd482771efa")
 		)
 		(instances
-			(project "DMH_BBDelay_PCB_Main"
+			(project "DMH_BBDelay_PCB_Main_v6"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f521875d-e2e4-48cf-a233-31167ca3a37c"
 					(reference "U17")
 					(unit 2)
@@ -1221,7 +1221,7 @@
 			(uuid "93e4b28f-5de1-4e71-9899-fa82a168f25c")
 		)
 		(instances
-			(project "DMH_BBDelay_PCB_Main"
+			(project "DMH_BBDelay_PCB_Main_v6"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f521875d-e2e4-48cf-a233-31167ca3a37c"
 					(reference "R162")
 					(unit 1)
@@ -1299,7 +1299,7 @@
 			(uuid "5e0ed7d5-f497-433f-b791-2f1812d89ba4")
 		)
 		(instances
-			(project "DMH_BBDelay_PCB_Main"
+			(project "DMH_BBDelay_PCB_Main_v6"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f521875d-e2e4-48cf-a233-31167ca3a37c"
 					(reference "#PWR05")
 					(unit 1)
@@ -1399,7 +1399,7 @@
 			(uuid "49ae07b6-3add-40d8-b880-1bd482771efa")
 		)
 		(instances
-			(project "DMH_BBDelay_PCB_Main"
+			(project "DMH_BBDelay_PCB_Main_v6"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f521875d-e2e4-48cf-a233-31167ca3a37c"
 					(reference "U17")
 					(unit 3)
@@ -1488,7 +1488,7 @@
 			(uuid "60c344d5-68b6-4c9f-82c8-09f396240142")
 		)
 		(instances
-			(project "DMH_BBDelay_PCB_Main"
+			(project "DMH_BBDelay_PCB_Main_v6"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/f521875d-e2e4-48cf-a233-31167ca3a37c"
 					(reference "C44")
 					(unit 1)
