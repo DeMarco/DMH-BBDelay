@@ -18950,7 +18950,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 86.36 118.11 0)
-		(unit 6)
+		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18958,7 +18958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3db0f6d4-481c-40fd-b11e-035776e3f26e")
-		(property "Reference" "U9"
+		(property "Reference" "U28"
 			(at 86.36 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19022,52 +19022,52 @@
 			)
 		)
 		(pin "3"
-			(uuid "832f8c6d-2993-4972-b43e-dd6f40330591")
+			(uuid "832f8c6d-2993-4972-b43e-dd6f40330592")
 		)
 		(pin "11"
-			(uuid "22893d4e-da08-4289-b787-86d173300302")
+			(uuid "22893d4e-da08-4289-b787-86d173300303")
 		)
 		(pin "9"
-			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b8c")
+			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b8d")
 		)
 		(pin "12"
 			(uuid "39875ce8-a5f4-4737-a6fb-d3f85432fe6e")
 		)
 		(pin "2"
-			(uuid "faccbb61-6048-4dc4-8300-709537765386")
+			(uuid "faccbb61-6048-4dc4-8300-709537765387")
 		)
 		(pin "6"
-			(uuid "9ec08716-dca1-4877-83a4-d5aa3356399a")
+			(uuid "9ec08716-dca1-4877-83a4-d5aa3356399b")
 		)
 		(pin "13"
 			(uuid "4e7d6048-cb1b-4915-a89c-02775a4327c4")
 		)
 		(pin "14"
-			(uuid "2a06c8f6-0254-4825-8272-3bdf03937399")
+			(uuid "2a06c8f6-0254-4825-8272-3bdf0393739a")
 		)
 		(pin "4"
-			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d10")
+			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d11")
 		)
 		(pin "8"
-			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab1")
+			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab2")
 		)
 		(pin "1"
-			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d3")
+			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d4")
 		)
 		(pin "5"
-			(uuid "0623c212-7705-4fb6-8945-5512635ecfd8")
+			(uuid "0623c212-7705-4fb6-8945-5512635ecfd9")
 		)
 		(pin "10"
-			(uuid "023d911a-e641-46be-b41b-299902c437f2")
+			(uuid "023d911a-e641-46be-b41b-299902c437f3")
 		)
 		(pin "7"
-			(uuid "259efcb5-5a75-4778-a5c1-b59fcb219647")
+			(uuid "259efcb5-5a75-4778-a5c1-b59fcb219648")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
-					(reference "U9")
-					(unit 6)
+					(reference "U28")
+					(unit 5)
 				)
 			)
 		)
@@ -19922,7 +19922,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 68.58 118.11 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19930,7 +19930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c358195-ff8b-4402-aa9e-15a029e71944")
-		(property "Reference" "U9"
+		(property "Reference" "U28"
 			(at 68.58 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20038,8 +20038,8 @@
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733"
-					(reference "U9")
-					(unit 1)
+					(reference "U28")
+					(unit 2)
 				)
 			)
 		)
@@ -21301,19 +21301,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "832f8c6d-2993-4972-b43e-dd6f40330592")
+			(uuid "832f8c6d-2993-4972-b43e-dd6f40330593")
 		)
 		(pin "11"
-			(uuid "22893d4e-da08-4289-b787-86d173300303")
+			(uuid "22893d4e-da08-4289-b787-86d173300304")
 		)
 		(pin "9"
-			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b8d")
+			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b8e")
 		)
 		(pin "12"
 			(uuid "883ccf8a-48a1-4032-b19a-6d9fccbfc808")
 		)
 		(pin "2"
-			(uuid "faccbb61-6048-4dc4-8300-709537765387")
+			(uuid "faccbb61-6048-4dc4-8300-709537765388")
 		)
 		(pin "6"
 			(uuid "16c58e90-8f9a-43f0-bd8a-dc3578ea1fba")
@@ -21322,25 +21322,25 @@
 			(uuid "20c6e5f9-a39e-4c43-be88-b43c606955cf")
 		)
 		(pin "14"
-			(uuid "2a06c8f6-0254-4825-8272-3bdf0393739a")
+			(uuid "2a06c8f6-0254-4825-8272-3bdf0393739b")
 		)
 		(pin "4"
-			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d11")
+			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d12")
 		)
 		(pin "8"
-			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab2")
+			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab3")
 		)
 		(pin "1"
-			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d4")
+			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d5")
 		)
 		(pin "5"
 			(uuid "94b7d446-0d85-4327-8f16-b35a35ab1427")
 		)
 		(pin "10"
-			(uuid "023d911a-e641-46be-b41b-299902c437f3")
+			(uuid "023d911a-e641-46be-b41b-299902c437f4")
 		)
 		(pin "7"
-			(uuid "259efcb5-5a75-4778-a5c1-b59fcb219648")
+			(uuid "259efcb5-5a75-4778-a5c1-b59fcb219649")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
@@ -21927,19 +21927,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "832f8c6d-2993-4972-b43e-dd6f40330593")
+			(uuid "832f8c6d-2993-4972-b43e-dd6f40330594")
 		)
 		(pin "11"
-			(uuid "22893d4e-da08-4289-b787-86d173300304")
+			(uuid "22893d4e-da08-4289-b787-86d173300305")
 		)
 		(pin "9"
-			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b8e")
+			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b8f")
 		)
 		(pin "12"
 			(uuid "883ccf8a-48a1-4032-b19a-6d9fccbfc809")
 		)
 		(pin "2"
-			(uuid "faccbb61-6048-4dc4-8300-709537765388")
+			(uuid "faccbb61-6048-4dc4-8300-709537765389")
 		)
 		(pin "6"
 			(uuid "9ec08716-dca1-4877-83a4-d5aa3356399c")
@@ -21951,19 +21951,19 @@
 			(uuid "88767b79-a8ac-4a38-8961-179484b7c2cd")
 		)
 		(pin "4"
-			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d12")
+			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d13")
 		)
 		(pin "8"
-			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab3")
+			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab4")
 		)
 		(pin "1"
-			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d5")
+			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d6")
 		)
 		(pin "5"
 			(uuid "0623c212-7705-4fb6-8945-5512635ecfda")
 		)
 		(pin "10"
-			(uuid "023d911a-e641-46be-b41b-299902c437f4")
+			(uuid "023d911a-e641-46be-b41b-299902c437f5")
 		)
 		(pin "7"
 			(uuid "340b0216-5857-48aa-a0a8-1737b5a5186e")
@@ -22367,46 +22367,46 @@
 			)
 		)
 		(pin "7"
-			(uuid "b7ba4237-c2a6-46ca-8526-24758ac72a9a")
+			(uuid "b7ba4237-c2a6-46ca-8526-24758ac72a9b")
 		)
 		(pin "14"
-			(uuid "f43db095-3606-48bf-9d56-15cbb45a3095")
+			(uuid "f43db095-3606-48bf-9d56-15cbb45a3096")
 		)
 		(pin "13"
-			(uuid "c12a94d7-5ef7-4796-968c-baf409c441d8")
+			(uuid "c12a94d7-5ef7-4796-968c-baf409c441d9")
 		)
 		(pin "3"
-			(uuid "792aba13-e214-46a4-a926-ba3db3ec4ca4")
+			(uuid "792aba13-e214-46a4-a926-ba3db3ec4ca5")
 		)
 		(pin "9"
-			(uuid "721cd90e-91c2-4ab2-b7f4-c84f870ae6cc")
+			(uuid "721cd90e-91c2-4ab2-b7f4-c84f870ae6cd")
 		)
 		(pin "1"
 			(uuid "7b845959-031a-45f4-aeff-c60ad575c9f0")
 		)
 		(pin "10"
-			(uuid "6a508670-59d0-4a0f-9b29-252cb497a833")
+			(uuid "6a508670-59d0-4a0f-9b29-252cb497a834")
 		)
 		(pin "5"
-			(uuid "2c211b97-7d20-40f3-8f25-a6b4d612caf8")
+			(uuid "2c211b97-7d20-40f3-8f25-a6b4d612caf9")
 		)
 		(pin "2"
 			(uuid "7ef912c7-6097-4c31-acb2-ef341fd0b1f7")
 		)
 		(pin "4"
-			(uuid "74fcdce5-e9f9-465b-a6d9-bc388148943d")
+			(uuid "74fcdce5-e9f9-465b-a6d9-bc388148943e")
 		)
 		(pin "11"
-			(uuid "f01f9754-c572-4f9b-9d2d-fbf5f947b7a3")
+			(uuid "f01f9754-c572-4f9b-9d2d-fbf5f947b7a4")
 		)
 		(pin "12"
-			(uuid "41c30403-ee1f-482f-a380-230a6437355d")
+			(uuid "41c30403-ee1f-482f-a380-230a6437355e")
 		)
 		(pin "6"
-			(uuid "2ee9c701-844e-452f-a3a8-93bd1b027882")
+			(uuid "2ee9c701-844e-452f-a3a8-93bd1b027883")
 		)
 		(pin "8"
-			(uuid "f8f731a2-d1ed-4169-888d-7ca8f02de5dd")
+			(uuid "f8f731a2-d1ed-4169-888d-7ca8f02de5de")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
@@ -23756,46 +23756,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "832f8c6d-2993-4972-b43e-dd6f40330592")
+			(uuid "832f8c6d-2993-4972-b43e-dd6f40330595")
 		)
 		(pin "11"
-			(uuid "22893d4e-da08-4289-b787-86d173300303")
+			(uuid "22893d4e-da08-4289-b787-86d173300306")
 		)
 		(pin "9"
-			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b8d")
+			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b90")
 		)
 		(pin "12"
-			(uuid "883ccf8a-48a1-4032-b19a-6d9fccbfc808")
+			(uuid "883ccf8a-48a1-4032-b19a-6d9fccbfc80a")
 		)
 		(pin "2"
-			(uuid "faccbb61-6048-4dc4-8300-709537765387")
+			(uuid "faccbb61-6048-4dc4-8300-70953776538a")
 		)
 		(pin "6"
 			(uuid "2f21ea4b-cb6c-4f2d-93c7-861938429662")
 		)
 		(pin "13"
-			(uuid "20c6e5f9-a39e-4c43-be88-b43c606955cf")
+			(uuid "20c6e5f9-a39e-4c43-be88-b43c606955d1")
 		)
 		(pin "14"
-			(uuid "2a06c8f6-0254-4825-8272-3bdf0393739a")
+			(uuid "2a06c8f6-0254-4825-8272-3bdf0393739c")
 		)
 		(pin "4"
-			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d11")
+			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d14")
 		)
 		(pin "8"
-			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab2")
+			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab5")
 		)
 		(pin "1"
-			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d4")
+			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d7")
 		)
 		(pin "5"
 			(uuid "4bcbc5c0-1bd2-454b-9ad8-341b2e7e781d")
 		)
 		(pin "10"
-			(uuid "023d911a-e641-46be-b41b-299902c437f3")
+			(uuid "023d911a-e641-46be-b41b-299902c437f6")
 		)
 		(pin "7"
-			(uuid "259efcb5-5a75-4778-a5c1-b59fcb219648")
+			(uuid "259efcb5-5a75-4778-a5c1-b59fcb21964a")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
@@ -25764,46 +25764,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "832f8c6d-2993-4972-b43e-dd6f40330593")
+			(uuid "832f8c6d-2993-4972-b43e-dd6f40330596")
 		)
 		(pin "11"
-			(uuid "22893d4e-da08-4289-b787-86d173300304")
+			(uuid "22893d4e-da08-4289-b787-86d173300307")
 		)
 		(pin "9"
-			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b8e")
+			(uuid "a9087e48-7b43-46e5-b41b-12dff4f69b91")
 		)
 		(pin "12"
-			(uuid "883ccf8a-48a1-4032-b19a-6d9fccbfc809")
+			(uuid "883ccf8a-48a1-4032-b19a-6d9fccbfc80b")
 		)
 		(pin "2"
-			(uuid "faccbb61-6048-4dc4-8300-709537765388")
+			(uuid "faccbb61-6048-4dc4-8300-70953776538b")
 		)
 		(pin "6"
-			(uuid "9ec08716-dca1-4877-83a4-d5aa3356399c")
+			(uuid "9ec08716-dca1-4877-83a4-d5aa3356399d")
 		)
 		(pin "13"
-			(uuid "20c6e5f9-a39e-4c43-be88-b43c606955d0")
+			(uuid "20c6e5f9-a39e-4c43-be88-b43c606955d2")
 		)
 		(pin "14"
-			(uuid "2a06c8f6-0254-4825-8272-3bdf0393739b")
+			(uuid "2a06c8f6-0254-4825-8272-3bdf0393739d")
 		)
 		(pin "4"
-			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d12")
+			(uuid "72744d6c-19a9-47bb-9ecf-23b556765d15")
 		)
 		(pin "8"
-			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab3")
+			(uuid "d07e40ed-40f8-4520-b54a-adf3f9e6fab6")
 		)
 		(pin "1"
-			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d5")
+			(uuid "7402a3b6-1a1d-48d1-81d3-887b549362d8")
 		)
 		(pin "5"
-			(uuid "0623c212-7705-4fb6-8945-5512635ecfda")
+			(uuid "0623c212-7705-4fb6-8945-5512635ecfdb")
 		)
 		(pin "10"
-			(uuid "023d911a-e641-46be-b41b-299902c437f4")
+			(uuid "023d911a-e641-46be-b41b-299902c437f7")
 		)
 		(pin "7"
-			(uuid "259efcb5-5a75-4778-a5c1-b59fcb219649")
+			(uuid "259efcb5-5a75-4778-a5c1-b59fcb21964b")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
