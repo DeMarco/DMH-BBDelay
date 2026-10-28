@@ -1984,6 +1984,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 64.77 113.03)
+		(radius 4.0161)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0826b85f-5f97-4b53-aa5d-ce3968697ba8")
+	)
 	(rectangle
 		(start 19.05 19.05)
 		(end 279.4 152.4)
