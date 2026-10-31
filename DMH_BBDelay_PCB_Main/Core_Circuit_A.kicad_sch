@@ -4937,6 +4937,18 @@
 		)
 		(uuid "0bf20c97-30c1-4986-904b-16a4c5f9e69d")
 	)
+	(circle
+		(center 68.58 69.85)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "84f96292-b0f5-43be-bfd6-15f9ff794097")
+	)
 	(rectangle
 		(start 370.84 203.2)
 		(end 405.13 250.19)
@@ -5018,6 +5030,16 @@
 			)
 		)
 		(uuid "340fd2bd-c6c1-42b2-b22f-48053234e4ac")
+	)
+	(text "Find way to lower this\nresistor when fast\nrange is selected"
+		(exclude_from_sim no)
+		(at 50.8 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e93d0cbb-a4f3-4ec2-b776-808d6fd5c43c")
 	)
 	(text_box "Idea in case phaser mode doesn't sound good due to the 5kHz filtering:\n\nUse extra CD4053 per channel to bypass the Input and Output filters.\nThe 3rd switch in the CD4053 can be used to add a resistor to -12V to add the 2.5V offset needed for the V3205.\nCommand the CD4053 with a 3-way DPDT, combining the range cap selection."
 		(exclude_from_sim no)
