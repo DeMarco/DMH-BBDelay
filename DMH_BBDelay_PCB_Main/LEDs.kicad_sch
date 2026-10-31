@@ -1984,18 +1984,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 64.77 113.03)
-		(radius 4.0161)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0826b85f-5f97-4b53-aa5d-ce3968697ba8")
-	)
 	(rectangle
 		(start 19.05 19.05)
 		(end 279.4 152.4)
@@ -2113,6 +2101,10 @@
 		(uuid "5221fba7-7058-43e9-b288-448a9e98cae3")
 	)
 	(no_connect
+		(at 180.34 111.76)
+		(uuid "5594d854-7209-42fc-81f1-8cd9683d0ca0")
+	)
+	(no_connect
 		(at 66.04 101.6)
 		(uuid "61d08236-a0b9-41f6-ad48-a4bcba2d226c")
 	)
@@ -2133,10 +2125,6 @@
 		(uuid "8e32d832-7cb5-4530-bf5b-97d895e2c83d")
 	)
 	(no_connect
-		(at 66.04 114.3)
-		(uuid "9f8470d3-ba0c-4099-9614-93a8e42222e2")
-	)
-	(no_connect
 		(at 180.34 93.98)
 		(uuid "a400a7d1-2912-42b6-82e2-0d478e12f334")
 	)
@@ -2153,12 +2141,8 @@
 		(uuid "bb1c007b-982b-4f14-b1c8-7665610916dc")
 	)
 	(no_connect
-		(at 180.34 114.3)
-		(uuid "db0d3b70-39c7-4afc-886a-725315d2eaf5")
-	)
-	(no_connect
-		(at 180.34 116.84)
-		(uuid "e7028837-0bf9-46cc-8cc3-b1ee170df6f1")
+		(at 66.04 111.76)
+		(uuid "c4e85b23-e96c-4a5c-9132-998bccaf9d53")
 	)
 	(no_connect
 		(at 66.04 88.9)
@@ -2167,6 +2151,10 @@
 	(no_connect
 		(at 180.34 88.9)
 		(uuid "facb1788-a44c-4332-b86e-7f78031a3787")
+	)
+	(no_connect
+		(at 180.34 116.84)
+		(uuid "fcd17be1-50ef-41c9-a192-c6b97cf0cc3f")
 	)
 	(wire
 		(pts
@@ -2400,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 111.76) (xy 76.2 111.76)
+			(xy 78.74 114.3) (xy 76.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2417,16 +2405,6 @@
 			(type default)
 		)
 		(uuid "598bd43c-c3c8-42be-97f6-45e0f276488a")
-	)
-	(wire
-		(pts
-			(xy 180.34 111.76) (xy 182.88 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c0418c4-869b-434d-a9d9-ed5c909a001d")
 	)
 	(wire
 		(pts
@@ -2600,6 +2578,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 114.3) (xy 68.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d97d9b-8c8d-48b8-b6ad-af234a547fce")
+	)
+	(wire
+		(pts
 			(xy 137.16 60.96) (xy 88.9 60.96)
 		)
 		(stroke
@@ -2650,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 111.76) (xy 193.04 111.76)
+			(xy 190.5 114.3) (xy 193.04 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2670,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 111.76) (xy 78.74 116.84)
+			(xy 78.74 114.3) (xy 78.74 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2750,6 +2738,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 114.3) (xy 182.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae0e078-06e9-44be-9daf-88fede45c4f2")
+	)
+	(wire
+		(pts
 			(xy 203.2 121.92) (xy 203.2 124.46)
 		)
 		(stroke
@@ -2800,23 +2798,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 111.76) (xy 193.04 116.84)
+			(xy 193.04 114.3) (xy 193.04 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dca5847d-e593-4585-9381-031a9a3f4ec1")
-	)
-	(wire
-		(pts
-			(xy 66.04 111.76) (xy 68.58 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e24eb866-a800-4d85-9c19-c459765945f8")
 	)
 	(wire
 		(pts
@@ -3698,7 +3686,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 186.69 111.76 90)
+		(at 186.69 114.3 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3709,7 +3697,7 @@
 		(dnp no)
 		(uuid "3f16b4ee-a781-4ca5-9abf-7e0c4f3530d3")
 		(property "Reference" "R179"
-			(at 186.69 106.426 90)
+			(at 186.69 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3719,7 +3707,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 186.69 108.712 90)
+			(at 186.69 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3729,7 +3717,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 186.944 112.776 90)
+			(at 186.944 115.316 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3740,7 +3728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 111.76 0)
+			(at 186.69 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +3739,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 186.69 111.76 0)
+			(at 186.69 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,7 +5528,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 72.39 111.76 90)
+		(at 72.39 114.3 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5551,7 +5539,7 @@
 		(dnp no)
 		(uuid "e993b873-e4b7-4785-9bea-843907a07fce")
 		(property "Reference" "R161"
-			(at 72.39 106.426 90)
+			(at 72.39 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5561,7 +5549,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 72.39 108.712 90)
+			(at 72.39 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5571,7 +5559,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 72.644 112.776 90)
+			(at 72.644 115.316 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5582,7 +5570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 111.76 0)
+			(at 72.39 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,7 +5581,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 72.39 111.76 0)
+			(at 72.39 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

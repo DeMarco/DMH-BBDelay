@@ -770,7 +770,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "U29-30,R186,R206",
+    "used_designators": "U29-30,R186,R197,R206-210,#PWR286-287,C67,C77",
     "variants": []
   },
   "sheets": [
