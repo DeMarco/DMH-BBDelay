@@ -21277,7 +21277,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 59.69 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21730,7 +21730,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 69.85 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31822,22 +31822,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "3591cef5-81a0-443d-8ab2-d98190fe9feb")
+			(uuid "3591cef5-81a0-443d-8ab2-d98190fe9fec")
 		)
 		(pin "6"
-			(uuid "35bd00d0-15b5-4a4d-8708-02c46b3636f6")
+			(uuid "35bd00d0-15b5-4a4d-8708-02c46b3636f7")
 		)
 		(pin "2"
-			(uuid "f3f8a100-b2d7-4c5e-8fdf-ed5175bb3053")
+			(uuid "f3f8a100-b2d7-4c5e-8fdf-ed5175bb3054")
 		)
 		(pin "4"
-			(uuid "84f03efa-7e54-432d-a764-fe672bc31681")
+			(uuid "84f03efa-7e54-432d-a764-fe672bc31682")
 		)
 		(pin "1"
-			(uuid "9c4f72f2-8360-463c-b1e2-56bf9e54fbee")
+			(uuid "9c4f72f2-8360-463c-b1e2-56bf9e54fbef")
 		)
 		(pin "3"
-			(uuid "2d758cf3-cfd9-48cd-9230-086302c84376")
+			(uuid "2d758cf3-cfd9-48cd-9230-086302c84377")
 		)
 		(instances
 			(project "DMH_BBDelay_PCB_Main"
