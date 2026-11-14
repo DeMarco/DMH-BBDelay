@@ -769,7 +769,7 @@
         "uuid": "58f4306d-5387-4983-bb08-41a2313fd315"
       }
     ],
-    "used_designators": "R32,R36,R94,SW3,C56,#PWR258",
+    "used_designators": "R32,R36,R94,SW3,C56,C92,#PWR258",
     "variants": []
   },
   "sheets": [

@@ -14599,7 +14599,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "33k"
 			(at 266.7 167.132 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18027,7 +18027,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "43k"
 			(at 248.92 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
