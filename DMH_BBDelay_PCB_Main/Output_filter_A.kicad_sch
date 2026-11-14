@@ -960,23 +960,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 76.2) (xy 40.64 76.2)
+			(xy 25.4 76.2) (xy 53.34 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20f749fd-e037-47df-af7f-ef3b1117a1ed")
-	)
-	(wire
-		(pts
-			(xy 48.26 76.2) (xy 53.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3c1078-a8df-4152-a27b-1f71ccc6e648")
 	)
 	(wire
 		(pts
@@ -1209,95 +1199,6 @@
 			(justify right)
 		)
 		(uuid "b23fa631-2eea-45ec-b0c3-c468e93b5bf4")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 44.45 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0cf96c8e-307c-4b04-bd22-8d8b4e77cb12")
-		(property "Reference" "C56"
-			(at 44.45 69.596 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF Film"
-			(at 44.45 72.136 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
-			(at 48.26 75.2348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" ""
-			(at 44.45 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c24680d1-7d30-475d-a270-3fee4631b7a7")
-		)
-		(pin "2"
-			(uuid "77e108ff-8a1c-4fe4-b07d-a0446f02a1c2")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f/0bc6b9e8-2a23-483c-9bc6-99b99ebe2845"
-					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
