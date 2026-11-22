@@ -3404,23 +3404,25 @@
 		(dnp no)
 		(uuid "3091d15e-551f-408e-9863-983dfe799063")
 		(property "Reference" "SW2"
-			(at 148.59 44.45 0)
+			(at 144.78 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 146.05 44.45 0)
+			(at 144.78 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
@@ -3457,7 +3459,7 @@
 			)
 		)
 		(property "Function" "Link"
-			(at 134.112 44.45 0)
+			(at 132.588 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

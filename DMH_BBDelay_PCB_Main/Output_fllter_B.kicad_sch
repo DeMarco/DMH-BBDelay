@@ -990,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 76.2) (xy 40.64 76.2)
+			(xy 25.4 76.2) (xy 53.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1087,16 +1087,6 @@
 			(type default)
 		)
 		(uuid "c98db497-18b9-4b50-907f-84927b0d6052")
-	)
-	(wire
-		(pts
-			(xy 48.26 76.2) (xy 53.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf7a1b5-244e-40aa-8d43-1637a0492e3e")
 	)
 	(wire
 		(pts
@@ -1769,95 +1759,6 @@
 			(project "DMH_BBDelay_PCB_Main"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/b220cd30-3d79-47df-ac4c-a5efb41766f0"
 					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 44.45 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a906364-fdef-4ed6-b81a-64e68de9d288")
-		(property "Reference" "C58"
-			(at 44.45 69.596 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF Film"
-			(at 44.45 72.136 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
-			(at 48.26 75.2348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" ""
-			(at 44.45 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7744187-ddc3-43d1-827d-82a4f276be20")
-		)
-		(pin "2"
-			(uuid "bd1c8170-f740-4beb-9738-9e3f80096ad4")
-		)
-		(instances
-			(project "DMH_BBDelay_PCB_Main"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/53120047-129a-4e0f-876f-6cafa2f18733/b220cd30-3d79-47df-ac4c-a5efb41766f0"
-					(reference "C58")
 					(unit 1)
 				)
 			)
