@@ -6269,42 +6269,6 @@
 		)
 		(uuid "2a767fbc-b2b5-4536-a256-aae6926a2293")
 	)
-	(circle
-		(center 205.74 148.59)
-		(radius 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "2e191d26-b711-4db8-98b8-609a4146b70e")
-	)
-	(circle
-		(center 177.8 148.59)
-		(radius 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "49ff8a29-1ee9-4bcc-9538-d5802a515494")
-	)
-	(circle
-		(center 189.23 130.81)
-		(radius 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "9217acf6-270d-4b87-af41-91ca40b544a7")
-	)
 	(rectangle
 		(start 370.84 203.2)
 		(end 405.13 250.19)
@@ -15556,7 +15520,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "47k"
 			(at 283.21 29.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17872,7 +17836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 175.26 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23108,7 +23072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 203.2 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29516,7 +29480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 186.69 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)

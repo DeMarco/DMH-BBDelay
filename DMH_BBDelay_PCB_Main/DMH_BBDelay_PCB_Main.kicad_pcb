@@ -1221,7 +1221,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 1.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "63b25e57-0ca8-4dfd-a819-42d99266bb5b")
@@ -10291,7 +10291,7 @@
 				)
 			)
 		)
-		(property "Value" "5k6"
+		(property "Value" "10k"
 			(at 3.81 2.37 0)
 			(layer "F.Fab")
 			(uuid "9cd2fbd6-18ff-480d-b231-fc10c837d4e0")
@@ -31098,7 +31098,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 1.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "f26c8cb9-4c2f-45d3-a057-4e1f8a3c1973")
@@ -33630,7 +33630,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 1.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "575636a1-f31f-410e-ad6b-b406fec2da7c")
@@ -47258,7 +47258,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/7ad2d702-dfb7-4d49-a82d-34430dd5948f/bb240dcb-f550-463b-9fae-1c4668cdc805")
+		(path "/7ad2d702-dfb7-4d49-a82d-34430dd5948f/cc720c1b-1197-4d3e-9549-744268e3a80e")
 		(sheetname "/Core Circuit A/")
 		(sheetfile "Core_Circuit_A.kicad_sch")
 		(units
@@ -54978,7 +54978,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 1.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "087ea9dc-7c75-473d-908f-4d63f69ea8a2")
@@ -55907,7 +55907,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 1.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "16941c4e-17da-462d-9d38-09db8369d2ce")
@@ -81619,7 +81619,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/7ad2d702-dfb7-4d49-a82d-34430dd5948f/24241be2-9a90-4d0c-ab58-16cbeb00a523")
+		(path "/7ad2d702-dfb7-4d49-a82d-34430dd5948f/e09eb854-05d3-469d-9cf0-4a793d4792de")
 		(sheetname "/Core Circuit A/")
 		(sheetfile "Core_Circuit_A.kicad_sch")
 		(units
@@ -83363,7 +83363,7 @@
 				)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "220pF"
 			(at 1.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "ba3d21fc-3835-428b-a723-ee5f9e3c0ecb")
