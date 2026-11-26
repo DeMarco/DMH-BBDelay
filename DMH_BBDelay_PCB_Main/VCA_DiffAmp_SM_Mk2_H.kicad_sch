@@ -6392,7 +6392,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 165.1 68.834 0)
+			(at 165.1 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
